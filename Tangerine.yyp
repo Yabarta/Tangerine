@@ -36,6 +36,9 @@
   "name":"Tangerine",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"sprIvanWalkRight","path":"sprites/sprIvanWalkRight/sprIvanWalkRight.yy",},},
+    {"id":{"name":"sprTilesModI","path":"sprites/sprTilesModI/sprTilesModI.yy",},},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
