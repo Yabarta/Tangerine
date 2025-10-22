@@ -36,6 +36,8 @@
   "name":"Tangerine",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
+    {"id":{"name":"sprIvanWalkDown","path":"sprites/sprIvanWalkDown/sprIvanWalkDown.yy",},},
     {"id":{"name":"sprIvanWalkRight","path":"sprites/sprIvanWalkRight/sprIvanWalkRight.yy",},},
     {"id":{"name":"sprTilesModI","path":"sprites/sprTilesModI/sprTilesModI.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
