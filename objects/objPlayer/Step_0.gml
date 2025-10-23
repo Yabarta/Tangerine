@@ -29,6 +29,14 @@ if place_meeting(x + xSpeed, y, objCollision) == true {
 if place_meeting(x, y + ySpeed, objCollision) == true {
     ySpeed = 0;
 }
-x += xSpeed;
-y += ySpeed;
 
+hsp = xSpeed //horizontal speed
+vsp = ySpeed //vertical speed
+//si es diagonal que vaya igual de velocidad
+if(xSpeed != 0 and ySpeed != 0 ){
+    hsp = xSpeed * 0.5;
+    vsp = ySpeed * 0.5;
+}
+
+x += hsp;
+y += vsp;
