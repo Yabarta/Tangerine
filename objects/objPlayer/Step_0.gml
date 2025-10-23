@@ -34,8 +34,8 @@ hsp = xSpeed //horizontal speed
 vsp = ySpeed //vertical speed
 //si es diagonal que vaya igual de velocidad
 if(xSpeed != 0 and ySpeed != 0 ){
-    hsp = xSpeed * 0.5;
-    vsp = ySpeed * 0.5;
+    hsp = xSpeed * 0.707;
+    vsp = ySpeed * 0.707;
 }
 
 x += hsp;

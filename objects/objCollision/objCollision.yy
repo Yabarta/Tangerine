@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprBox",
-    "path":"sprites/sprBox/sprBox.yy",
+    "name":"sprCollision",
+    "path":"sprites/sprCollision/sprCollision.yy",
   },
   "spriteMaskId":null,
   "visible":false,
