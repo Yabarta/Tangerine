@@ -1,11 +1,18 @@
+//speed
 var xSpeed = (keyboard_check(ord("D")) - keyboard_check(ord("A"))) * walk_speed;
 var ySpeed = (keyboard_check(ord("S")) - keyboard_check(ord("W"))) * walk_speed;
 
+//pause
+if(instance_exists(objPauser)){
+    xSpeed = 0;
+    ySpeed = 0;
+}
+
+//sprites
 if(xSpeed != 0 or ySpeed != 0) {
     if(ySpeed > 0) sprite_index = sprIvanWalkDown; 
     else if (ySpeed < 0) sprite_index = sprIvanWalkUp;
     else if (xSpeed > 0) sprite_index = sprIvanWalkRight;
-    else if (xSpeed < 0) sprite_index = sprIvanWalkRight; 
         
     facing = point_direction(0, 0, xSpeed, ySpeed);   
         
@@ -40,3 +47,6 @@ if(xSpeed != 0 and ySpeed != 0 ){
 
 x += hsp;
 y += vsp;
+
+y = round(y)
+x = round(x)
