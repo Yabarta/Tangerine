@@ -23,6 +23,26 @@ if instance_exists(objPauser){
 }
 
 // set sprite
+if (bossfight) {
+    sprite[RIGHT] = sprSwordWalkRight;
+    sprite[LEFT] = sprSwordWalkLeft;
+    sprite[UP] = sprSwordWalkUp;
+    sprite[DOWN] = sprSwordWalkDown;
+    sprite[IDLE_RIGHT] = sprSwordIdleRight;
+    sprite[IDLE_LEFT] = sprSwordIdleLeft;
+    sprite[IDLE_UP] = sprSwordIdleUp;
+    sprite[IDLE_DOWN] = sprSwordIdleDown;
+} else {
+    sprite[RIGHT] = sprIvanWalkRight;
+    sprite[LEFT] = sprIvanWalkLeft;
+    sprite[UP] = sprIvanWalkUp;
+    sprite[DOWN] = sprIvanWalkDown;
+    sprite[IDLE_RIGHT] = sprIvanIdleRight;
+    sprite[IDLE_LEFT] = sprIvanIdleLeft;
+    sprite[IDLE_UP] = sprIvanIdleUp;
+    sprite[IDLE_DOWN] = sprIvanIdleDown;
+}
+
 mask_index = sprite[DOWN];
 if ySpeed == 0 {
     if xSpeed > 0 {face = RIGHT} 

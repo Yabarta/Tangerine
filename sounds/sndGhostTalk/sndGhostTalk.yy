@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.727619,
+  "duration":0.69659865,
   "name":"sndGhostTalk",
   "parent":{
     "name":"Sonidos",
