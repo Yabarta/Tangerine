@@ -11,8 +11,8 @@
   "name":"objWarp",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Transitions",
+    "path":"folders/Objetos/Transitions.yy",
   },
   "parentObjectId":{
     "name":"objPauser",
