@@ -13,7 +13,10 @@
     "name":"Interactuables",
     "path":"folders/Objetos/Interactuables.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"objPauser",
+    "path":"objects/objPauser/objPauser.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
