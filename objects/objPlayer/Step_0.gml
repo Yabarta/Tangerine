@@ -10,9 +10,16 @@ ver = (down_key - up_key);
 
 xSpeed = hor * move_speed;
 ySpeed = ver * move_speed;
+
 if hor != 0 && ver != 0{
     xSpeed = hor * diagonal_speed;
     ySpeed = ver * diagonal_speed;
+}
+
+// pause while transitioning
+if instance_exists(objPauser){
+    xSpeed = 0;
+    ySpeed = 0;
 }
 
 // set sprite

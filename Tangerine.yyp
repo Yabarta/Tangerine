@@ -17,6 +17,8 @@
     {"$GMFolder":"","%Name":"Líneas temporales","folderPath":"folders/Líneas temporales.yy","name":"Líneas temporales","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notas","folderPath":"folders/Notas.yy","name":"Notas","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objetos","folderPath":"folders/Objetos.yy","name":"Objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Collisions","folderPath":"folders/Objetos/Collisions.yy","name":"Collisions","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Transitions","folderPath":"folders/Objetos/Transitions.yy","name":"Transitions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Interactuables","folderPath":"folders/Objetos/Interactuables.yy","name":"Interactuables","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rutas","folderPath":"folders/Rutas.yy","name":"Rutas","resourceType":"GMFolder","resourceVersion":"2.0",},

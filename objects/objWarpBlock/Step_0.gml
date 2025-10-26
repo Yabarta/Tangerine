@@ -3,4 +3,5 @@ if(place_meeting(x, y, objPlayer) && !instance_exists(objWarp)){
     inst.targetX = targetX;
     inst.targetY = targetY;
     inst.targetRoom = targetRoom;
+    inst.targetFace = targetFace;
 }
