@@ -62,6 +62,7 @@
     {"id":{"name":"objPassiveDischarge","path":"objects/objPassiveDischarge/objPassiveDischarge.yy",},},
     {"id":{"name":"objPassiveDischargeSide","path":"objects/objPassiveDischargeSide/objPassiveDischargeSide.yy",},},
     {"id":{"name":"objPauser","path":"objects/objPauser/objPauser.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
     {"id":{"name":"objProyectile","path":"objects/objProyectile/objProyectile.yy",},},
     {"id":{"name":"objSpawnHeal","path":"objects/objSpawnHeal/objSpawnHeal.yy",},},
@@ -77,6 +78,15 @@
     {"id":{"name":"roomBossfight","path":"rooms/roomBossfight/roomBossfight.yy",},},
     {"id":{"name":"roomTest","path":"rooms/roomTest/roomTest.yy",},},
     {"id":{"name":"roomTest2","path":"rooms/roomTest2/roomTest2.yy",},},
+=======
+    {"id":{"name":"objRain","path":"objects/objRain/objRain.yy",},},
+    {"id":{"name":"objWarp","path":"objects/objWarp/objWarp.yy",},},
+    {"id":{"name":"objWarpBlock","path":"objects/objWarpBlock/objWarpBlock.yy",},},
+    {"id":{"name":"roomBank","path":"rooms/roomBank/roomBank.yy",},},
+    {"id":{"name":"roomFirstClass","path":"rooms/roomFirstClass/roomFirstClass.yy",},},
+    {"id":{"name":"roomI2Hallway","path":"rooms/roomI2Hallway/roomI2Hallway.yy",},},
+    {"id":{"name":"roomIDown","path":"rooms/roomIDown/roomIDown.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"Drawing","path":"scripts/Drawing/Drawing.yy",},},
     {"id":{"name":"PlayerSprites","path":"scripts/PlayerSprites/PlayerSprites.yy",},},
     {"id":{"name":"scrDialog","path":"scripts/scrDialog/scrDialog.yy",},},
@@ -84,18 +94,26 @@
     {"id":{"name":"sndCastThunder","path":"sounds/sndCastThunder/sndCastThunder.yy",},},
     {"id":{"name":"sndExplosion","path":"sounds/sndExplosion/sndExplosion.yy",},},
     {"id":{"name":"sndGhostTalk","path":"sounds/sndGhostTalk/sndGhostTalk.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"sndHealing","path":"sounds/sndHealing/sndHealing.yy",},},
     {"id":{"name":"sndPlayerHit","path":"sounds/sndPlayerHit/sndPlayerHit.yy",},},
     {"id":{"name":"sndSwordSlash","path":"sounds/sndSwordSlash/sndSwordSlash.yy",},},
     {"id":{"name":"sndWarn","path":"sounds/sndWarn/sndWarn.yy",},},
     {"id":{"name":"sprAttack","path":"sprites/sprAttack/sprAttack.yy",},},
+=======
+    {"id":{"name":"doorIlumination","path":"sprites/doorIlumination/doorIlumination.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"sprBlackIdle","path":"sprites/sprBlackIdle/sprBlackIdle.yy",},},
     {"id":{"name":"sprBlueShout","path":"sprites/sprBlueShout/sprBlueShout.yy",},},
     {"id":{"name":"sprCollision","path":"sprites/sprCollision/sprCollision.yy",},},
     {"id":{"name":"sprDialogBox","path":"sprites/sprDialogBox/sprDialogBox.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"sprElectricBox","path":"sprites/sprElectricBox/sprElectricBox.yy",},},
     {"id":{"name":"sprElectricWall","path":"sprites/sprElectricWall/sprElectricWall.yy",},},
     {"id":{"name":"sprElectricWallSide","path":"sprites/sprElectricWallSide/sprElectricWallSide.yy",},},
+=======
+    {"id":{"name":"sprFilter","path":"sprites/sprFilter/sprFilter.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"sprGreenIdle","path":"sprites/sprGreenIdle/sprGreenIdle.yy",},},
     {"id":{"name":"sprHeal","path":"sprites/sprHeal/sprHeal.yy",},},
     {"id":{"name":"sprHealth","path":"sprites/sprHealth/sprHealth.yy",},},
@@ -109,10 +127,15 @@
     {"id":{"name":"sprIvanWalkLeft","path":"sprites/sprIvanWalkLeft/sprIvanWalkLeft.yy",},},
     {"id":{"name":"sprIvanWalkRight","path":"sprites/sprIvanWalkRight/sprIvanWalkRight.yy",},},
     {"id":{"name":"sprIvanWalkUp","path":"sprites/sprIvanWalkUp/sprIvanWalkUp.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"sprPowerSourceOff","path":"sprites/sprPowerSourceOff/sprPowerSourceOff.yy",},},
     {"id":{"name":"sprPowerSourceOn","path":"sprites/sprPowerSourceOn/sprPowerSourceOn.yy",},},
     {"id":{"name":"sprProyectile","path":"sprites/sprProyectile/sprProyectile.yy",},},
+=======
+    {"id":{"name":"sprRain","path":"sprites/sprRain/sprRain.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"sprRedIdle","path":"sprites/sprRedIdle/sprRedIdle.yy",},},
+    {"id":{"name":"sprRoof","path":"sprites/sprRoof/sprRoof.yy",},},
     {"id":{"name":"sprShadow","path":"sprites/sprShadow/sprShadow.yy",},},
     {"id":{"name":"sprThunderH","path":"sprites/sprThunderH/sprThunderH.yy",},},
     {"id":{"name":"sprThunderV","path":"sprites/sprThunderV/sprThunderV.yy",},},
@@ -126,20 +149,27 @@
     {"id":{"name":"sprWarpBlock","path":"sprites/sprWarpBlock/sprWarpBlock.yy",},},
     {"id":{"name":"sprWhiteIdle","path":"sprites/sprWhiteIdle/sprWhiteIdle.yy",},},
     {"id":{"name":"sprYellowIdle","path":"sprites/sprYellowIdle/sprYellowIdle.yy",},},
-    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
-    {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},},
-    {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},},
     {"id":{"name":"TileSet4","path":"tilesets/TileSet4/TileSet4.yy",},},
     {"id":{"name":"TileSet5","path":"tilesets/TileSet5/TileSet5.yy",},},
     {"id":{"name":"TileSet6","path":"tilesets/TileSet6/TileSet6.yy",},},
+    {"id":{"name":"TileSetBank","path":"tilesets/TileSetBank/TileSetBank.yy",},},
+    {"id":{"name":"TileSetClassroom","path":"tilesets/TileSetClassroom/TileSetClassroom.yy",},},
+    {"id":{"name":"TileSetHallway","path":"tilesets/TileSetHallway/TileSetHallway.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+<<<<<<< Updated upstream
     {"roomId":{"name":"roomBossfight","path":"rooms/roomBossfight/roomBossfight.yy",},},
     {"roomId":{"name":"roomTest","path":"rooms/roomTest/roomTest.yy",},},
     {"roomId":{"name":"roomTest2","path":"rooms/roomTest2/roomTest2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+=======
+    {"roomId":{"name":"roomBank","path":"rooms/roomBank/roomBank.yy",},},
+    {"roomId":{"name":"roomFirstClass","path":"rooms/roomFirstClass/roomFirstClass.yy",},},
+    {"roomId":{"name":"roomI2Hallway","path":"rooms/roomI2Hallway/roomI2Hallway.yy",},},
+    {"roomId":{"name":"roomIDown","path":"rooms/roomIDown/roomIDown.yy",},},
+>>>>>>> Stashed changes
   ],
   "templateType":"game",
   "TextureGroups":[

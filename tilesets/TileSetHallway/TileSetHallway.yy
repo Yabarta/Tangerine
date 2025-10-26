@@ -1,13 +1,13 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"TileSet3",
+  "%Name":"TileSetHallway",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"TileSet3",
+  "name":"TileSetHallway",
   "out_columns":8,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"sprTilesExterior",
-    "path":"sprites/sprTilesExterior/sprTilesExterior.yy",
+    "name":"sprTilesCorridors",
+    "path":"sprites/sprTilesCorridors/sprTilesCorridors.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

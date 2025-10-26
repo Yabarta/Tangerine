@@ -1,13 +1,13 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"TileSet2",
+  "%Name":"TileSetClassroom",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"TileSet2",
+  "name":"TileSetClassroom",
   "out_columns":8,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"sprTilesCorridors",
-    "path":"sprites/sprTilesCorridors/sprTilesCorridors.yy",
+    "name":"sprTilesModI",
+    "path":"sprites/sprTilesModI/sprTilesModI.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
