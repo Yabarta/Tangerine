@@ -8,7 +8,7 @@ draw_sprite_stretched(sprDialogBox, 0, dx, dy, box_w, box_h);
 dx += 44;
 dy += 24;
 
-draw_set_font(fnt1);
+draw_set_font(underFont);
 
 var speaker = messages[current_message].name;
 draw_set_color(global.char_colors[$ speaker]);

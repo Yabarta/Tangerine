@@ -1,7 +1,17 @@
-walk_speed = 3;
-move_speed = walk_speed;
+// speed variables
+move_speed = 3;
+diagonal_speed = move_speed * 0.707;
+xSpeed = 0;
+ySpeed = 0;
 
-facing = 1;// derecha = 1, izquierda = -1
+// set sprites
+sprite[RIGHT] = sprIvanWalkRight;
+sprite[LEFT] = sprIvanWalkLeft;
+sprite[UP] = sprIvanWalkUp;
+sprite[DOWN] = sprIvanWalkDown;
+sprite[IDLE_RIGHT] = sprIvanIdleRight;
+sprite[IDLE_LEFT] = sprIvanIdleLeft;
+sprite[IDLE_UP] = sprIvanIdleUp;
+sprite[IDLE_DOWN] = sprIvanIdleDown;
 
-tileWall = layer_tilemap_get_id("Tiles_Wall");
-tileTables = layer_tilemap_get_id("Tiles_Tables")
+face = IDLE_DOWN;
