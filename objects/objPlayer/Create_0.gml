@@ -15,3 +15,17 @@ sprite[IDLE_UP] = sprIvanIdleUp;
 sprite[IDLE_DOWN] = sprIvanIdleDown;
 
 face = IDLE_DOWN;
+
+// is in minigame?
+minigame1 = false;
+minigame2 = false;
+minigame3 = false;
+minigame4 = false;
+
+bossfight = true;
+hp = 1;
+hpMax = 3;
+damage = 1;
+attackCooldown = 0;
+facing = 270;
+global.endFight = 0;
