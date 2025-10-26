@@ -1,52 +1,59 @@
-//speed
-var xSpeed = (keyboard_check(ord("D")) - keyboard_check(ord("A"))) * walk_speed;
-var ySpeed = (keyboard_check(ord("S")) - keyboard_check(ord("W"))) * walk_speed;
+right_key = keyboard_check(ord("D"));
+left_key = keyboard_check(ord("A"));
+up_key = keyboard_check(ord("W"));
+down_key = keyboard_check(ord("S"));
 
-//pause
-if(instance_exists(objPauser)){
-    xSpeed = 0;
-    ySpeed = 0;
+// Movement
+hor = (right_key - left_key);
+ver = (down_key - up_key);
+
+
+xSpeed = hor * move_speed;
+ySpeed = ver * move_speed;
+if hor != 0 && ver != 0{
+    xSpeed = hor * diagonal_speed;
+    ySpeed = ver * diagonal_speed;
 }
 
-//sprites
-if(xSpeed != 0 or ySpeed != 0) {
-    if(ySpeed > 0) sprite_index = sprIvanWalkDown; 
-    else if (ySpeed < 0) sprite_index = sprIvanWalkUp;
-    else if (xSpeed > 0) sprite_index = sprIvanWalkRight;
-        
-    facing = point_direction(0, 0, xSpeed, ySpeed);   
-        
+// set sprite
+mask_index = sprite[DOWN];
+if ySpeed == 0 {
+    if xSpeed > 0 {face = RIGHT} 
+    if xSpeed < 0 {face = LEFT}
+}
     
-} /*else {
-    if(sprite_index == sprIvanWalkDown) sprite_index = spr_player_idle_down;
-    else if(sprite_index == sprIvanWalkUp) sprite_index = spr_player_idle_up;
-    else if(sprite_index == sprIvanWalkRight) sprite_index = spr_player_idle_right;    
-    else if(sprite_index == spr_player_walk_left) sprite_index = spr_player_idle_left;      
-}*/
-
-if(xSpeed < 0){
-    image_xscale = -1;
-} else if(xSpeed > 0){
-    image_xscale = 1;
+if xSpeed == 0 {
+    if ySpeed > 0 {face = DOWN}
+    if ySpeed < 0 {face = UP}
 }
 
-if place_meeting(x + xSpeed, y, objCollision) == true {
+if xSpeed == 0 && ySpeed == 0{
+    if face == DOWN {face = IDLE_DOWN}
+    if face == LEFT {face = IDLE_LEFT}
+    if face == RIGHT {face = IDLE_RIGHT}
+    if face == UP {face = IDLE_UP}
+}
+
+sprite_index = sprite[face];
+
+//collisions
+if place_meeting( x + xSpeed, y, objCollision ) == true {
     xSpeed = 0;
 }
-if place_meeting(x, y + ySpeed, objCollision) == true {
+
+if place_meeting( x, y + ySpeed, objCollision ) == true {
     ySpeed = 0;
 }
 
-hsp = xSpeed //horizontal speed
-vsp = ySpeed //vertical speed
-//si es diagonal que vaya igual de velocidad
-if(xSpeed != 0 and ySpeed != 0 ){
-    hsp = xSpeed * 0.707;
-    vsp = ySpeed * 0.707;
-}
+x += xSpeed;
+y += ySpeed;
 
-x += hsp;
-y += vsp;
+if xSpeed > 0 && face == LEFT {face=RIGHT}
+if xSpeed < 0 && face == RIGHT {face=LEFT}
+    
+if ySpeed > 0 && face == UP {face=DOWN}
+if ySpeed < 0 && face == DOWN {face=UP}
 
-y = round(y)
-x = round(x)
+
+y = round(y);
+x = round(x);
