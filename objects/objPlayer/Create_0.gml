@@ -24,7 +24,7 @@ minigame2 = false;
 minigame3 = false;
 minigame4 = false;
 
-bossfight = true;
+bossfight = false;
 hp = 3;
 hpMax = 3;
 damage = 1;
