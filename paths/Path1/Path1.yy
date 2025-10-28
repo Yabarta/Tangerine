@@ -1,0 +1,17 @@
+{
+  "$GMPath":"",
+  "%Name":"Path1",
+  "closed":false,
+  "kind":0,
+  "name":"Path1",
+  "parent":{
+    "name":"Minijuego1",
+    "path":"folders/Objetos/Minijuego1.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":219.0,"y":232.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
