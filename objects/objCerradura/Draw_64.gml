@@ -1,1 +1,0 @@
-draw_text(0,0, ds_list_size(Object12.algosemueve));
