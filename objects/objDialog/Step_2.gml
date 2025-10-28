@@ -12,6 +12,7 @@ if (current_char < string_length(message)) {
 } else if (keyboard_check_pressed(input_key)) {
     current_message++;
     if (current_message >= array_length(messages)) {
+        global.dialogo_terminado = global.dialogo_actual;
         instance_destroy();
     } else {
         current_char = 0;

@@ -8,4 +8,4 @@ if (instance_exists(objPlayer)) {
     }
 }
 
-alarm[0] = 60*13;
+alarm[0] = 60*10;

@@ -11,11 +11,11 @@ function create_dialog(messages)
 char_colors = {
     "DemoGuy": c_blue,
     "Iván": c_aqua,
-    "WhiteGhost": c_silver,
+    "Neuquen": c_silver,
     "Agord": c_red,
-    "Ekim": c_yellow,
-    "GreenGhost": c_lime,
-    "BlueGhost": c_blue,
+    "Nomil": c_yellow,
+    "Kraps": c_lime,
+    "Eirworb": c_blue,
     "Leamsi": c_black
 }
 
@@ -63,46 +63,17 @@ moduloI_1 = [
 }
 ]
 
-moduloI_2 = [
+preBossfight = [
 {
-    name: "WhiteGhost",
-    msg: "OooOOOooh. Parece que alguien se ha quedado encerrado a altas horas de la noche.",
+    name: "Iván",
+    msg: "Esto es el diálogo previo a la bossfight.",
     talk: sndGhostTalk
 },
 {
     name: "Iván",
-    msg: "No me digas...",
+    msg: "Facto.",
     talk: sndGhostTalk
-},
-{
-    name: "WhiteGhost",
-    msg: "OooOOOooh. Pero no tema usted jovenzuelo. Pues pertenezco al grupo de los Seis Sombreros.",
-    talk: sndGhostTalk
-},
-{
-    name: "Iván",
-    msg: "Ahá...",
-    talk: sndGhostTalk
-},
-{
-    name: "WhiteGhost",
-    msg: "OooOOOooh...",
-    talk: sndGhostTalk
-},
-{
-    name: "WhiteGhost",
-    msg: "Oye objetivamente suena como si no te importase.",
-    talk: sndGhostTalk
-},
-{
-    name: "Iván",
-    msg: "Tengo prisa, me gustaría salir de aquí. ¿Vas a ayudarme o vas a quedarte ahí sin hacer nada?",
-    talk: sndGhostTalk
-},
-{
-    name: "WhiteGhost",
-    msg: "Muchacho hablas con una presión agobiante. Tu situación es objetivamente una horrible.",
-    talk: sndGhostTalk
-},
+}
 ]
+
 

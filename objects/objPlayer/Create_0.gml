@@ -17,6 +17,8 @@ sprite[IDLE_DOWN] = sprIvanIdleDown;
 face = IDLE_DOWN;
 
 // is in minigame?
+global.dialogo_terminado = 0;
+
 minigame1 = false;
 minigame2 = false;
 minigame3 = false;

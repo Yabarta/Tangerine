@@ -84,6 +84,17 @@ if ySpeed > 0 && face == UP {face=DOWN}
 if ySpeed < 0 && face == DOWN {face=UP}
 
 //minigames
+if(global.preBossfight == global.dialogo_terminado) {
+    room_goto(roomBossfight);
+    global.dialogo_terminado = 0;
+}
+
+if(room == roomBossfight && global.endFight < 3) {
+    bossfight = true;
+} else {
+    bossfight = false;
+}
+
 if(bossfight) {
     if(keyboard_check(vk_space) && attackCooldown <= 0) {
         audio_play_sound(sndSwordSlash,0,false)
