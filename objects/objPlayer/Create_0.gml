@@ -20,6 +20,7 @@ face = IDLE_DOWN;
 global.dialogo_terminado = 0;
 
 minigame1 = false;
+global.minigame1Finished = false;
 minigame2 = false;
 minigame3 = false;
 minigame4 = false;
