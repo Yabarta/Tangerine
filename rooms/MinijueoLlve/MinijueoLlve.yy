@@ -59,8 +59,8 @@
   ],
   "name":"MinijueoLlve",
   "parent":{
-    "name":"Salas",
-    "path":"folders/Salas.yy",
+    "name":"Minijuegos",
+    "path":"folders/Salas/Minijuegos.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

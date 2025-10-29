@@ -78,8 +78,8 @@
   ],
   "name":"roomFirstClass",
   "parent":{
-    "name":"Salas",
-    "path":"folders/Salas.yy",
+    "name":"ModuloI",
+    "path":"folders/Salas/ModuloI.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
