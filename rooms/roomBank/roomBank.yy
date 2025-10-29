@@ -16,7 +16,6 @@
     {"name":"inst_5F736363","path":"rooms/roomBank/roomBank.yy",},
     {"name":"inst_2B9BF5E8","path":"rooms/roomBank/roomBank.yy",},
     {"name":"inst_39951006","path":"rooms/roomBank/roomBank.yy",},
-    {"name":"inst_23B20A10","path":"rooms/roomBank/roomBank.yy",},
     {"name":"inst_382129DA","path":"rooms/roomBank/roomBank.yy",},
     {"name":"inst_1872B22F","path":"rooms/roomBank/roomBank.yy",},
     {"name":"inst_48575709","path":"rooms/roomBank/roomBank.yy",},
@@ -57,7 +56,6 @@
         {"$GMRInstance":"v2","%Name":"inst_39951006","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_39951006","objectId":{"name":"objNpcGeneric","path":"objects/objNpcGeneric/objNpcGeneric.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objNpcParent","path":"objects/objNpcParent/objNpcParent.yy",},"propertyId":{"name":"dialog","path":"objects/objNpcParent/objNpcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.maquinaExpendedora",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.40625,"scaleY":3.5625,"x":36.0,"y":237.0,},
-        {"$GMRInstance":"v2","%Name":"inst_23B20A10","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_23B20A10","objectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":192.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_Roof","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_2FA9CFB6","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_2FA9CFB6","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.453125,"scaleY":2.0,"spriteId":{"name":"doorIlumination","path":"sprites/doorIlumination/doorIlumination.yy",},"x":34.0,"y":131.0,},

@@ -6,8 +6,8 @@
   "name":"Object17",
   "overriddenProperties":[],
   "parent":{
-    "name":"Minijuego1",
-    "path":"folders/Objetos/Minijuego1.yy",
+    "name":"Colisiones",
+    "path":"folders/Objetos/Minijuego1/Colisiones.yy",
   },
   "parentObjectId":null,
   "persistent":false,

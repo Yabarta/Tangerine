@@ -72,7 +72,7 @@
           -106,-2147483648,1,268435493,-104,-2147483648,1,268435493,-125,-2147483648,1,268435493,-59,-2147483648,
           1,10,-20,-2147483648,1,10,-20,-2147483648,1,10,-20,-2147483648,1,10,-20,-2147483648,1,10,-10,-2147483648,
           3,10,268435475,19,-7,-2147483648,1,10,-10,-2147483648,1,18,-48,-2147483648,1,26,-20,-2147483648,1,34,
-          -256,-2147483648,
+          -18,-2147483648,1,0,-237,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet4","path":"tilesets/TileSet4/TileSet4.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_67FE9CB6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_67FE9CB6","objectId":{"name":"objCameraController","path":"objects/objCameraController/objCameraController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":32.0,},
