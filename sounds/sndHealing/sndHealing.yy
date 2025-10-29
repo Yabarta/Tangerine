@@ -12,8 +12,8 @@
   "duration":0.80947846,
   "name":"sndHealing",
   "parent":{
-    "name":"Sonidos",
-    "path":"folders/Sonidos.yy",
+    "name":"effects",
+    "path":"folders/Sonidos/effects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

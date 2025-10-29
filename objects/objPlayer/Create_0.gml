@@ -18,12 +18,15 @@ face = IDLE_DOWN;
 
 // is in minigame?
 global.dialogo_terminado = 0;
+global.interaction = 0;
 
 minigame1 = false;
 minigame1Finished = false;
 
 minigame2 = false;
+global.points = 0;
 global.minigame2Finished = false;
+global.dialogo_actual = 0;
 
 minigame3 = false;
 minigame4 = false;

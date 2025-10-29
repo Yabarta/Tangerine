@@ -12,8 +12,8 @@
   "duration":0.69659865,
   "name":"sndGhostTalk",
   "parent":{
-    "name":"Sonidos",
-    "path":"folders/Sonidos.yy",
+    "name":"talking",
+    "path":"folders/Sonidos/talking.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

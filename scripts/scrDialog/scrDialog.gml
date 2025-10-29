@@ -92,6 +92,14 @@ introAgord = [
 }
 ]
 
+postMinigame2 = [
+{
+    name: "Agord",
+    msg: "patata",
+    talk: sndGhostTalk
+}
+]
+
 fuente = [
 {
     name: "Iván",

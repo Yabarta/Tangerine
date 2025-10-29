@@ -12,8 +12,8 @@
   "duration":1.3820181,
   "name":"sndCastProyectile",
   "parent":{
-    "name":"Sonidos",
-    "path":"folders/Sonidos.yy",
+    "name":"effects",
+    "path":"folders/Sonidos/effects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

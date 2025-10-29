@@ -12,8 +12,8 @@
   "duration":1.6195918,
   "name":"sndCastThunder",
   "parent":{
-    "name":"Sonidos",
-    "path":"folders/Sonidos.yy",
+    "name":"effects",
+    "path":"folders/Sonidos/effects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

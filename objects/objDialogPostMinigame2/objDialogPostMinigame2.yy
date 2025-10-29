@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"objNpcGeneric",
+  "%Name":"objDialogPostMinigame2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objNpcGeneric",
+  "name":"objDialogPostMinigame2",
   "overriddenProperties":[],
   "parent":{
     "name":"Interactuables",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprGenericDialog",
-    "path":"sprites/sprGenericDialog/sprGenericDialog.yy",
+    "name":"sprDialogBox",
+    "path":"sprites/sprDialogBox/sprDialogBox.yy",
   },
   "spriteMaskId":null,
   "visible":false,

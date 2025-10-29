@@ -84,10 +84,38 @@ if ySpeed > 0 && face == UP {face=DOWN}
 if ySpeed < 0 && face == DOWN {face=UP}
 
 //minigames
-if(global.introAgord == global.dialogo_terminado) {
+if(global.dialogo_actual == global.introAgord) {
+    if(global.interaction == 3) {
+        face = RIGHT;
+        if (!instance_exists(objNpcRed)) {
+            var agord = instance_create_layer(x+150,y-60,"Instances",objNpcRed);
+            agord.image_xscale = -1;
+        }
+    }
+}
+if(global.introAgord == global.dialogo_terminado && !global.minigame2Finished) {
     room_goto(MinijuegoRitmo);
     global.dialogo_terminado = 0;
-    instance_deactivate_object(objPlayer);
+    visible = false;
+}
+if(global.minigame2Finished && global.points >= 40) {
+    visible = true;
+    global.points = 0;
+    room_goto(roomBank);
+    x = 110;
+    y = 145;
+}
+
+if(global.dialogo_actual == global.postMinigame2) {
+    if (!instance_exists(objNpcRed)) {
+            var agord = instance_create_layer(x+150,y-60,"Instances",objNpcRed);
+            agord.image_xscale = -1;
+        }
+}
+
+if(global.dialogo_terminado == global.postMinigame2) {
+    instance_destroy(objNpcRed);
+    global.points = 2;
 }
 
 if(global.preBossfight == global.dialogo_terminado) {

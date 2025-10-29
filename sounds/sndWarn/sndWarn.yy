@@ -12,8 +12,8 @@
   "duration":0.9010204,
   "name":"sndWarn",
   "parent":{
-    "name":"Sonidos",
-    "path":"folders/Sonidos.yy",
+    "name":"effects",
+    "path":"folders/Sonidos/effects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

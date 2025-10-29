@@ -12,8 +12,8 @@
   "duration":1.9707936,
   "name":"sndExplosion",
   "parent":{
-    "name":"Sonidos",
-    "path":"folders/Sonidos.yy",
+    "name":"effects",
+    "path":"folders/Sonidos/effects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

@@ -1,3 +1,5 @@
+if(!instance_exists(objPlayer)) exit;
+
 var target_x = clamp(objPlayer.x - 240, 0, room_width - 480);
 var target_y = clamp(objPlayer.y - 90, 0, room_height - 270);
 
