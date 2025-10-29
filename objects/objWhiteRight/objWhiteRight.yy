@@ -6,8 +6,8 @@
   "name":"objWhiteRight",
   "overriddenProperties":[],
   "parent":{
-    "name":"MiniJUego2",
-    "path":"folders/Objetos/MiniJUego2.yy",
+    "name":"Minijuego2",
+    "path":"folders/Objetos/Minijuego2.yy",
   },
   "parentObjectId":null,
   "persistent":false,

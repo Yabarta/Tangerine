@@ -6,8 +6,8 @@
   "name":"objIvanFlute",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Minijuego2",
+    "path":"folders/Objetos/Minijuego2.yy",
   },
   "parentObjectId":null,
   "persistent":false,
