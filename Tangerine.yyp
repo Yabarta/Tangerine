@@ -208,8 +208,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"MinijuegoRitmo","path":"rooms/MinijuegoRitmo/MinijuegoRitmo.yy",},},
     {"roomId":{"name":"roomFirstClass","path":"rooms/roomFirstClass/roomFirstClass.yy",},},
+    {"roomId":{"name":"MinijuegoRitmo","path":"rooms/MinijuegoRitmo/MinijuegoRitmo.yy",},},
     {"roomId":{"name":"MinijueoLlve","path":"rooms/MinijueoLlve/MinijueoLlve.yy",},},
     {"roomId":{"name":"roomI2Hallway","path":"rooms/roomI2Hallway/roomI2Hallway.yy",},},
     {"roomId":{"name":"roomIDown","path":"rooms/roomIDown/roomIDown.yy",},},

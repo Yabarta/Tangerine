@@ -84,6 +84,12 @@ if ySpeed > 0 && face == UP {face=DOWN}
 if ySpeed < 0 && face == DOWN {face=UP}
 
 //minigames
+if(global.introAgord == global.dialogo_terminado) {
+    room_goto(MinijuegoRitmo);
+    global.dialogo_terminado = 0;
+    instance_deactivate_object(objPlayer);
+}
+
 if(global.preBossfight == global.dialogo_terminado) {
     room_goto(roomBossfight);
     global.dialogo_terminado = 0;

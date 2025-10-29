@@ -23,6 +23,7 @@
     {"name":"inst_7C67A0A4","path":"rooms/roomBank/roomBank.yy",},
     {"name":"inst_679E92E9","path":"rooms/roomBank/roomBank.yy",},
     {"name":"inst_F289122","path":"rooms/roomBank/roomBank.yy",},
+    {"name":"inst_E501902","path":"rooms/roomBank/roomBank.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -40,6 +41,9 @@
         {"$GMRInstance":"v2","%Name":"inst_7C67A0A4","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7C67A0A4","objectId":{"name":"objWarpBlock","path":"objects/objWarpBlock/objWarpBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":9.0,"scaleY":17.0,"x":480.0,"y":544.0,},
         {"$GMRInstance":"v2","%Name":"inst_679E92E9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_679E92E9","objectId":{"name":"objCollision","path":"objects/objCollision/objCollision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":9.0,"scaleY":9.0,"x":480.0,"y":512.0,},
         {"$GMRInstance":"v2","%Name":"inst_F289122","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_F289122","objectId":{"name":"objCollision","path":"objects/objCollision/objCollision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":9.0,"scaleY":9.0,"x":480.0,"y":608.0,},
+        {"$GMRInstance":"v2","%Name":"inst_E501902","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_E501902","objectId":{"name":"objNpcGeneric","path":"objects/objNpcGeneric/objNpcGeneric.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objNpcParent","path":"objects/objNpcParent/objNpcParent.yy",},"propertyId":{"name":"dialog","path":"objects/objNpcParent/objNpcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.introAgord",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":81.999985,},
       ],"layers":[],"name":"Collisions","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_Filter","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_3670F3A4","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_3670F3A4","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":7.5,"spriteId":{"name":"sprFilter","path":"sprites/sprFilter/sprFilter.yy",},"x":0.0,"y":0.0,},

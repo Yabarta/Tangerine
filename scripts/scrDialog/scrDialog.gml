@@ -49,6 +49,49 @@ aparicionBlanco = [
 }
 ]
 
+introAgord = [
+{
+    name: "Iván",
+    msg: "Vamos a probar a sacar algo de pasta...",
+    talk: sndGhostTalk
+},
+{
+    name: "Iván",
+    msg: "No hay electricidad.",
+    talk: sndGhostTalk
+},
+{
+    name: "Iván",
+    msg: "¿De dónde se supone que voy a sacar ahora dinero?",
+    talk: sndGhostTalk
+},
+{
+    name: "Agord",
+    msg: "¿He oído dinero?",
+    talk: sndGhostTalk
+},
+{
+    name: "Agord",
+    msg: "¡Oh que emoción más grande! ¡Siento como un alma pide mi auxilio!",
+    talk: sndGhostTalk
+},
+{
+    name: "Agord",
+    msg: "Llena de frustración y coraje. Llena de fragilidad y pasión. ¡Es todo tan emocionante!",
+    talk: sndGhostTalk
+},
+{
+    name: "Iván",
+    msg: "¿Y tu eres?",
+    talk: sndGhostTalk
+},
+{
+    name: "Agord",
+    msg: "Soy conocido como Agord, el sombrero rojo. Rojo como la sangre que hierve por tus venas. ¡Rojo como el fuego que desprende mi entusiasmo!",
+    talk: sndGhostTalk
+}
+]
+
 fuente = [
 {
     name: "Iván",
