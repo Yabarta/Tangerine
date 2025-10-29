@@ -73,6 +73,7 @@
     {"id":{"name":"Object17","path":"objects/Object17/Object17.yy",},},
     {"id":{"name":"objElectricBox","path":"objects/objElectricBox/objElectricBox.yy",},},
     {"id":{"name":"objEnemyGenerator","path":"objects/objEnemyGenerator/objEnemyGenerator.yy",},},
+    {"id":{"name":"objEscenario","path":"objects/objEscenario/objEscenario.yy",},},
     {"id":{"name":"objHealing","path":"objects/objHealing/objHealing.yy",},},
     {"id":{"name":"objHueco0","path":"objects/objHueco0/objHueco0.yy",},},
     {"id":{"name":"objHueco1","path":"objects/objHueco1/objHueco1.yy",},},
