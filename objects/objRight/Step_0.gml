@@ -1,3 +1,3 @@
-if(global.points >= 40) {
+if(global.points >= 50) {
     global.minigame2Finished = true;
 }

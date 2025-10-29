@@ -98,7 +98,7 @@ if(global.introAgord == global.dialogo_terminado && !global.minigame2Finished) {
     global.dialogo_terminado = 0;
     visible = false;
 }
-if(global.minigame2Finished && global.points >= 40) {
+if(global.minigame2Finished && global.points >= 50) {
     visible = true;
     global.points = 0;
     room_goto(roomBank);
