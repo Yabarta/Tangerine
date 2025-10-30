@@ -1,12 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"objDialogPostMinigame2",
+  "%Name":"objHairFork",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objDialogPostMinigame2",
-  "overriddenProperties":[],
+  "name":"objHairFork",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objNpcParent","path":"objects/objNpcParent/objNpcParent.yy",},"propertyId":{"name":"dialog","path":"objects/objNpcParent/objNpcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.hairFork",},
+  ],
   "parent":{
     "name":"Interactuables",
     "path":"folders/Objetos/Interactuables.yy",
@@ -33,9 +35,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprGeneric2",
-    "path":"sprites/sprGeneric2/sprGeneric2.yy",
+    "name":"sprHairFork",
+    "path":"sprites/sprHairFork/sprHairFork.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

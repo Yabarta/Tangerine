@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprGenericDialog",
-    "path":"sprites/sprGenericDialog/sprGenericDialog.yy",
+    "name":"sprGeneric2",
+    "path":"sprites/sprGeneric2/sprGeneric2.yy",
   },
   "spriteMaskId":null,
   "visible":false,

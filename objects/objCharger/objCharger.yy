@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"objDialogPostMinigame2",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"objCharger",
+  "eventList":[],
   "managed":true,
-  "name":"objDialogPostMinigame2",
-  "overriddenProperties":[],
+  "name":"objCharger",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objNpcParent","path":"objects/objNpcParent/objNpcParent.yy",},"propertyId":{"name":"dialog","path":"objects/objNpcParent/objNpcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.charger",},
+  ],
   "parent":{
     "name":"Interactuables",
     "path":"folders/Objetos/Interactuables.yy",
@@ -33,9 +33,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprGeneric2",
-    "path":"sprites/sprGeneric2/sprGeneric2.yy",
+    "name":"sprCharger",
+    "path":"sprites/sprCharger/sprCharger.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

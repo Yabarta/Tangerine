@@ -46,6 +46,58 @@ aparicionBlanco = [
     name: "Iván",
     msg: "Me pregunto si habrá algo por aquí con lo que pueda salir.",
     talk: sndGhostTalk
+},
+{
+    name: "Neuquen",
+    msg: "Aparezco",
+    talk: sndGhostTalk
+},
+{
+    name: "Neuquen",
+    msg: "Acabo el diálogo",
+    talk: sndGhostTalk
+}
+]
+
+bloquearClase = [
+{
+    name: "Iván",
+    msg: "Empieso.",
+    talk: sndGhostTalk
+},
+{
+    name: "Neuquen",
+    msg: "No.",
+    talk: sndGhostTalk
+}
+]
+
+charger = [
+{
+    name: "Iván",
+    msg: "Un cargador. Nada relevante.",
+    talk: sndGhostTalk
+}
+]
+
+hairFork = [
+{
+    name: "Iván",
+    msg: "Una horquilla. Con esto probablemente pueda forzar la cerradura.",
+    talk: sndGhostTalk
+}
+]
+
+startMinigame1 = [
+{
+    name: "Iván",
+    msg: "Empieso.",
+    talk: sndGhostTalk
+},
+{
+    name: "Neuquen",
+    msg: "Si.",
+    talk: sndGhostTalk
 }
 ]
 

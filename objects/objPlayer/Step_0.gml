@@ -84,6 +84,14 @@ if ySpeed > 0 && face == UP {face=DOWN}
 if ySpeed < 0 && face == DOWN {face=UP}
 
 //minigames
+if (global.dialogo_actual = global.bloquearClase) {
+    y = 120;
+    face = DOWN;
+}
+if (global.dialogo_actual == global.startMinigame1) {
+    room_goto(MinijueoLlve);
+}
+
 if(global.dialogo_actual == global.introAgord) {
     if(global.interaction == 3) {
         face = RIGHT;
