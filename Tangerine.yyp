@@ -174,6 +174,7 @@
     {"id":{"name":"sprHealth","path":"sprites/sprHealth/sprHealth.yy",},},
     {"id":{"name":"sprInteract","path":"sprites/sprInteract/sprInteract.yy",},},
     {"id":{"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},},
+    {"id":{"name":"Sprite68","path":"sprites/Sprite68/Sprite68.yy",},},
     {"id":{"name":"sprIvanFlute","path":"sprites/sprIvanFlute/sprIvanFlute.yy",},},
     {"id":{"name":"sprIvanIdleDown","path":"sprites/sprIvanIdleDown/sprIvanIdleDown.yy",},},
     {"id":{"name":"sprIvanIdleLeft","path":"sprites/sprIvanIdleLeft/sprIvanIdleLeft.yy",},},
