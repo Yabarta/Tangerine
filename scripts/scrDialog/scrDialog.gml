@@ -101,6 +101,24 @@ startMinigame1 = [
 }
 ]
 
+finishMinigame1 = [
+{
+    name: "Neuquen",
+    msg: "Lo has hecho.",
+    talk: sndGhostTalk
+},
+{
+    name: "Iván",
+    msg: "Ole que ole.",
+    talk: sndGhostTalk
+},
+{
+    name: "Neuquen",
+    msg: "Ahora te acompaño.",
+    talk: sndGhostTalk
+}
+]
+
 introAgord = [
 {
     name: "Iván",

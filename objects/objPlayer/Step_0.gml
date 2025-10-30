@@ -102,7 +102,7 @@ if(!global.minigame1Finished) {
 
 if (global.dialogo_terminado == global.startMinigame1 && !global.minigame1Finished) {
     show_debug_message(global.interaction);
-    if(global.interaction == 0) {
+    if(global.interaction == 1) {
         face = RIGHT;
     }
     room_goto(MinijueoLlve);
@@ -112,9 +112,14 @@ if (global.dialogo_terminado == global.startMinigame1 && !global.minigame1Finish
 if(global.minigame1Finished && global.locks == 3) {
     visible = true;
     room_goto(roomFirstClass);
-    global.locks = 0;
+    global.locks = 1;
+    face = RIGHT;
     x = 60;
     y = 125;
+}
+
+if (global.dialogo_terminado == global.finishMinigame1) {
+    instance_destroy(objNpcWhite);
 }
 
 if(global.dialogo_actual == global.introAgord) {
