@@ -15,5 +15,7 @@ if ds_list_size(lista) == 0 {
 	}else{
 	if fase2 and listafase2hecha{
 		tetas = 2;
+        global.minigame1Finished = true;
+        global.locks = 3;
 	}}
 }

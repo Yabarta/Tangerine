@@ -8,10 +8,10 @@ if (instance_exists(objPlayer)) {
         global.dialogo_actual = dialog;
         create_dialog(dialog);
         if(!instance_exists(objCharger)) {
-            instance_create_layer(x,y + 70,"Instances",objCharger);
+            instance_create_layer(x + 190,y + 175,"Instances",objCharger);
         }
         if(!instance_exists(objHairFork)) {
-            instance_create_layer(x + 30,y + 70,"Instances",objHairFork);
+            instance_create_layer(x + 430,y + 140,"Instances",objHairFork);
         }
         instance_destroy();
     }

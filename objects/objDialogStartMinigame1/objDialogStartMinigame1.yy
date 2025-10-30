@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"objDialogPreMinigame1",
+  "%Name":"objDialogStartMinigame1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objDialogPreMinigame1",
+  "name":"objDialogStartMinigame1",
   "overriddenProperties":[],
   "parent":{
     "name":"mini1",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprDialogBox",
-    "path":"sprites/sprDialogBox/sprDialogBox.yy",
+    "name":"sprGenericDialog",
+    "path":"sprites/sprGenericDialog/sprGenericDialog.yy",
   },
   "spriteMaskId":null,
   "visible":false,

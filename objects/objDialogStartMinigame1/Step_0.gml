@@ -1,6 +1,8 @@
 if (instance_exists(objDialog)) exit;
     
-if (global.canStart1) exit;
+if (!global.canStart1) exit;
+    
+if (global.minigame1Finished) exit;
     
 if (instance_exists(objPlayer) && distance_to_object(objPlayer) <= 24) {
     can_talk = true;

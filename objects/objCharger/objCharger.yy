@@ -1,15 +1,17 @@
 {
   "$GMObject":"",
   "%Name":"objCharger",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"objCharger",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objNpcParent","path":"objects/objNpcParent/objNpcParent.yy",},"propertyId":{"name":"dialog","path":"objects/objNpcParent/objNpcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.charger",},
   ],
   "parent":{
-    "name":"Interactuables",
-    "path":"folders/Objetos/Interactuables.yy",
+    "name":"mini1",
+    "path":"folders/Objetos/Interactuables/mini1.yy",
   },
   "parentObjectId":{
     "name":"objNpcParent",

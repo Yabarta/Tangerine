@@ -84,12 +84,37 @@ if ySpeed > 0 && face == UP {face=DOWN}
 if ySpeed < 0 && face == DOWN {face=UP}
 
 //minigames
-if (global.dialogo_actual = global.bloquearClase) {
-    y = 120;
-    face = DOWN;
+if (global.dialogo_actual == global.aparicionBlanco) {
+    if (global.interaction == 1) {
+        face = RIGHT;
+        if (!instance_exists(objNpcWhite)) {
+            var neuquen = instance_create_layer(x+40,y-40,"Instances",objNpcWhite);
+            neuquen.depth = 10;
+        }
+    }
 }
-if (global.dialogo_actual == global.startMinigame1) {
+
+if(!global.minigame1Finished) {
+    instance_deactivate_object(objWarpBlock);
+} else {
+    instance_activate_object(objWarpBlock);
+}
+
+if (global.dialogo_terminado == global.startMinigame1 && !global.minigame1Finished) {
+    show_debug_message(global.interaction);
+    if(global.interaction == 0) {
+        face = RIGHT;
+    }
     room_goto(MinijueoLlve);
+    global.dialogo_terminado = 0;
+    visible = false;
+}
+if(global.minigame1Finished && global.locks == 3) {
+    visible = true;
+    room_goto(roomFirstClass);
+    global.locks = 0;
+    x = 60;
+    y = 125;
 }
 
 if(global.dialogo_actual == global.introAgord) {

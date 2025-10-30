@@ -10,8 +10,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objNpcParent","path":"objects/objNpcParent/objNpcParent.yy",},"propertyId":{"name":"dialog","path":"objects/objNpcParent/objNpcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.hairFork",},
   ],
   "parent":{
-    "name":"Interactuables",
-    "path":"folders/Objetos/Interactuables.yy",
+    "name":"mini1",
+    "path":"folders/Objetos/Interactuables/mini1.yy",
   },
   "parentObjectId":{
     "name":"objNpcParent",

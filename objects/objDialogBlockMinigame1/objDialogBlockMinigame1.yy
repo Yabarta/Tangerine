@@ -8,8 +8,8 @@
   "name":"objDialogBlockMinigame1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Interactuables",
-    "path":"folders/Objetos/Interactuables.yy",
+    "name":"mini1",
+    "path":"folders/Objetos/Interactuables/mini1.yy",
   },
   "parentObjectId":{
     "name":"objNpcParent",
