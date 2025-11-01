@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"objRoca",
+  "%Name":"objNpcBlackDefeat",
   "eventList":[],
   "managed":true,
-  "name":"objRoca",
+  "name":"objNpcBlackDefeat",
   "overriddenProperties":[],
   "parent":{
-    "name":"Minijuego3",
-    "path":"folders/Objetos/Minijuego3.yy",
+    "name":"Ghost",
+    "path":"folders/Objetos/Interactuables/Ghost.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprRock",
-    "path":"sprites/sprRock/sprRock.yy",
+    "name":"sprBlackDefeat",
+    "path":"sprites/sprBlackDefeat/sprBlackDefeat.yy",
   },
   "spriteMaskId":null,
   "visible":true,

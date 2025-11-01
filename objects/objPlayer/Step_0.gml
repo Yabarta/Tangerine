@@ -160,12 +160,6 @@ if(global.preBossfight == global.dialogo_terminado) {
     global.dialogo_terminado = 0;
 }
 
-if(room == roomBossfight && global.endFight < 3) {
-    bossfight = true;
-} else {
-    bossfight = false;
-}
-
 if(bossfight) {
     if(keyboard_check(vk_space) && attackCooldown <= 0) {
         audio_play_sound(sndSwordSlash,0,false)
@@ -193,9 +187,24 @@ if(bossfight) {
         hp = 3;
     }
     if (global.endFight >= 3) {
+        x = 320;
+        y = 190;
+        face = UP;
+        room_goto(roomPostBossfight);
         bossfight = false;
     }
+}
 
+if(room == roomBossfight && global.endFight < 3) {
+    bossfight = true;
+} else {
+    bossfight = false;
+}
+
+if (global.dialogo_terminado == global.finishGame) {
+    global.dialogo_terminado = 0;
+    room_goto(roomEndScreen);
+    visible = false;
 }
 
 //fix pixel movement
