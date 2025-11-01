@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"objRoca",
-  "eventList":[],
+  "%Name":"objDialogFinal",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"objRoca",
+  "name":"objDialogFinal",
   "overriddenProperties":[],
   "parent":{
-    "name":"Minijuego3",
-    "path":"folders/Objetos/Minijuego3.yy",
+    "name":"Interactuables",
+    "path":"folders/Objetos/Interactuables.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"objNpcParent",
+    "path":"objects/objNpcParent/objNpcParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,9 +33,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprRock",
-    "path":"sprites/sprRock/sprRock.yy",
+    "name":"sprDialogBox",
+    "path":"sprites/sprDialogBox/sprDialogBox.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

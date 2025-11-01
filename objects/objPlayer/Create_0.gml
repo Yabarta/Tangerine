@@ -37,4 +37,5 @@ damage = 1;
 attackCooldown = 0;
 facing = 270;
 global.endFight = 0;
+global.endGame = false;
 depth = 101;
