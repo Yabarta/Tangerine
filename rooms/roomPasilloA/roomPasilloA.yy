@@ -73,7 +73,7 @@
           1,10,-20,-2147483648,1,10,-20,-2147483648,1,10,-20,-2147483648,1,10,-20,-2147483648,1,10,-10,-2147483648,
           3,10,268435475,19,-7,-2147483648,1,10,-10,-2147483648,1,18,-48,-2147483648,1,26,-20,-2147483648,1,34,
           -18,-2147483648,1,0,-237,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet4","path":"tilesets/TileSet4/TileSet4.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSetModA","path":"tilesets/TileSetModA/TileSetModA.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_67FE9CB6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_67FE9CB6","objectId":{"name":"objCameraController","path":"objects/objCameraController/objCameraController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":32.0,},
         {"$GMRInstance":"v2","%Name":"inst_A4996D6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_A4996D6","objectId":{"name":"objNpcGeneric","path":"objects/objNpcGeneric/objNpcGeneric.yy",},"properties":[
@@ -116,7 +116,7 @@
           6,-7,-2147483648,-2,6,-5,-2147483648,7,6,1073741837,1073741837,6,1879048205,1879048205,6,-7,-2147483648,
           -2,6,-5,-2147483648,7,6,1073741837,1073741837,6,1879048205,1879048205,6,-7,-2147483648,-8,6,-2,1073741837,
           3,6,1879048205,1879048205,-9,6,-231,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet4","path":"tilesets/TileSet4/TileSet4.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSetModA","path":"tilesets/TileSetModA/TileSetModA.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"TilesGround","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TilesGround","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":40,"SerialiseWidth":21,"TileCompressedData":[
           -6,4,-2,0,-13,-2147483648,-6,4,-4,0,-11,-2147483648,-6,4,-7,0,-8,-2147483648,-6,4,-2,0,-3,-2147483648,
           -2,0,-8,-2147483648,-6,4,-2,0,-4,-2147483648,1,0,-8,-2147483648,-6,4,-2,0,-3,-2147483648,-2,0,-8,-2147483648,
@@ -127,7 +127,7 @@
           13,-20,4,1,13,-61,4,1,-2147483648,-20,4,1,-2147483648,-20,4,1,-2147483648,-20,0,1,-2147483648,-20,0,
           1,-2147483648,-20,0,1,-2147483648,-20,0,1,-2147483648,-20,0,1,-2147483648,-20,0,-5,-2147483648,-12,0,
           -11,-2147483648,-9,0,-11,-2147483648,-3,0,3,-2147483648,0,0,-73,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet5","path":"tilesets/TileSet5/TileSet5.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSetReception","path":"tilesets/TileSetReception/TileSetReception.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"roomPasilloA",

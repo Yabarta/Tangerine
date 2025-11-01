@@ -1,13 +1,13 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"TileSet6",
+  "%Name":"TileSetModA",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"TileSet6",
+  "name":"TileSetModA",
   "out_columns":8,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"sprTilesComedor",
-    "path":"sprites/sprTilesComedor/sprTilesComedor.yy",
+    "name":"sprTilesModA",
+    "path":"sprites/sprTilesModA/sprTilesModA.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
