@@ -1,3 +1,7 @@
+if ds_list_size(Object12.algosemueve) > 100{
+	ds_list_clear(Object12.algosemueve);
+}
+
 if ds_list_size(lista) == 0 {
 	if fase1 and !listafase1hecha{
 		for (var i = 0; i<4; i+=1){
