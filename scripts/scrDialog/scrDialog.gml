@@ -49,25 +49,70 @@ aparicionBlanco = [
 },
 {
     name: "Neuquen",
-    msg: "Aparezco",
+    msg: "Pero qué tenemos aquí. Un jovenzuelo se ha quedado encerrado en la escuela.",
     talk: sndWhiteTalk
 },
 {
+    name: "Iván",
+    msg: "Mira tú por donde no necesito alcohol para empezar a ver cosas raras.",
+    talk: sndIvanTalk
+},
+{
     name: "Neuquen",
-    msg: "Acabo el diálogo",
+    msg: "Desde un punto de vista imparcial lo soy. Aún así no debe temer usted pues se encuentra ante Neuquen, el gran sombrero blanco.",
     talk: sndWhiteTalk
+},
+{
+    name: "Iván",
+    msg: "Tampoco es que te tuviese mucho miedo desde primera hora.",
+    talk: sndIvanTalk
+},
+{
+    name: "Neuquen",
+    msg: "...Aunque se que mi aspecto puede intimidar a cualquiera, objetivamente estás ante una situación muy compleja. No me queda de otra que de ayudarte.",
+    talk: sndWhiteTalk
+},
+{
+    name: "Iván",
+    msg: "Ah genial. ¿Puedes abrir la puerta de alguna manera?",
+    talk: sndIvanTalk
+},
+{
+    name: "Neuquen",
+    msg: "Pues...no...",
+    talk: sndWhiteTalk
+},
+{
+    name: "Iván",
+    msg: "Eso pensab-",
+    talk: sndIvanTalk
+},
+{
+    name: "Neuquen",
+    msg: "¡¡PODRÍAS!! buscar algo que te permita forzar la cerradura.",
+    talk: sndWhiteTalk
+},
+{
+    name: "Iván",
+    msg: "...",
+    talk: sndIvanTalk
 }
 ]
 
 bloquearClase = [
 {
+    name: "Neuquen",
+    msg: "¿Has encontrado algo que te permita abrir la puerta?",
+    talk: sndWhiteTalk
+},
+{
     name: "Iván",
-    msg: "Empieso.",
+    msg: "Todavía no.",
     talk: sndIvanTalk
 },
 {
     name: "Neuquen",
-    msg: "No.",
+    msg: "La gente suele dejarse muchas cosas en la clase. Intenta aprovecharte de eso.",
     talk: sndWhiteTalk
 }
 ]
@@ -75,7 +120,7 @@ bloquearClase = [
 charger = [
 {
     name: "Iván",
-    msg: "Un cargador. Nada relevante.",
+    msg: "Un cargador. Alguién va a tener un finde con problemas de batería.",
     talk: sndIvanTalk
 }
 ]
@@ -90,32 +135,82 @@ hairFork = [
 
 startMinigame1 = [
 {
+    name: "Neuquen",
+    msg: "¿Has encontrado algo que te permita abrir la puerta?",
+    talk: sndWhiteTalk
+},
+{
     name: "Iván",
-    msg: "Empieso.",
+    msg: "Tengo una horquilla. Con esto será bastante sencillo descerrajarla.",
     talk: sndIvanTalk
 },
 {
     name: "Neuquen",
-    msg: "Si.",
+    msg: "Genial, deja que te ayude con el cerrojo.",
+    talk: sndWhiteTalk
+},
+{
+    name: "Iván",
+    msg: "No creo que haga falta. Se me da bast-",
+    talk: sndIvanTalk
+},
+{
+    name: "Neuquen",
+    msg: "¡¡PRIMERO!! Subiré los pestillos para que sepas cuáles tienes que levantar.",
+    talk: sndWhiteTalk
+},
+{
+    name: "Neuquen",
+    msg: "Lo único que debes hacer es memorizar el orden y replicar mis movimientos.",
     talk: sndWhiteTalk
 }
 ]
 
 finishMinigame1 = [
 {
-    name: "Neuquen",
-    msg: "Lo has hecho.",
-    talk: sndWhiteTalk
-},
-{
     name: "Iván",
-    msg: "Ole que ole.",
+    msg: "¡Hecho! Ha sido bastante fácil.",
     talk: sndIvanTalk
 },
 {
     name: "Neuquen",
-    msg: "Ahora te acompaño.",
+    msg: "Oh, me alegra poder haber sido de ayuda.",
     talk: sndWhiteTalk
+},
+{
+    name: "Iván",
+    msg: "¿Qué? ¿Al final has hecho algo?",
+    talk: sndIvanTalk
+},
+{
+    name: "Neuquen",
+    msg: "...",
+    talk: sndWhiteTalk
+},
+{
+    name: "Iván",
+    msg: "Lo siento, pero no se ve mucho en una habitación a oscuras y con una horquilla metida en una cerradura.",
+    talk: sndIvanTalk
+},
+{
+    name: "Neuquen",
+    msg: "Objetivamente estás... en lo correcto.",
+    talk: sndWhiteTalk
+},
+{
+    name: "Neuquen",
+    msg: "¡¡PERO NO TE PREOCUPES JOVENZUELO!!",
+    talk: sndWhiteTalk
+},
+{
+    name: "Neuquen",
+    msg: "No descansaré hasta que consigas salir de aquí. Considérame tu acompañante.",
+    talk: sndWhiteTalk
+},
+{
+    name: "Iván",
+    msg: "Lo que tu digas...",
+    talk: sndIvanTalk
 }
 ]
 

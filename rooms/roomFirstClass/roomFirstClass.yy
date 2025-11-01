@@ -28,6 +28,7 @@
     {"name":"inst_19C61CBE","path":"rooms/roomFirstClass/roomFirstClass.yy",},
     {"name":"inst_6FDFD61F","path":"rooms/roomFirstClass/roomFirstClass.yy",},
     {"name":"inst_7C691C38","path":"rooms/roomFirstClass/roomFirstClass.yy",},
+    {"name":"inst_68B6BDA0","path":"rooms/roomFirstClass/roomFirstClass.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -67,6 +68,9 @@
         {"$GMRInstance":"v2","%Name":"inst_7C691C38","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7C691C38","objectId":{"name":"objDialogPostMinigame1","path":"objects/objDialogPostMinigame1/objDialogPostMinigame1.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objNpcParent","path":"objects/objNpcParent/objNpcParent.yy",},"propertyId":{"name":"dialog","path":"objects/objNpcParent/objNpcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.finishMinigame1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.90625,"scaleY":1.53125,"x":14.0,"y":99.0,},
+        {"$GMRInstance":"v2","%Name":"inst_68B6BDA0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_68B6BDA0","objectId":{"name":"objDialogIntro","path":"objects/objDialogIntro/objDialogIntro.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objNpcParent","path":"objects/objNpcParent/objNpcParent.yy",},"propertyId":{"name":"dialog","path":"objects/objNpcParent/objNpcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.intro",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.5625,"scaleY":3.402563,"x":316.0,"y":162.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Classroom","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Classroom","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":13,"SerialiseWidth":20,"TileCompressedData":[
           -46,-2147483648,4,2,-2147483648,-2147483648,2,-16,-2147483648,11,9,17,-2147483648,9,17,-2147483648,9,
