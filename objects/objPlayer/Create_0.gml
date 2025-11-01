@@ -22,7 +22,7 @@ global.dialogo_terminado = 0;
 minigame1 = false;
 global.minigame1Finished = false;
 minigame2 = false;
-minigame3 = false;
+minigame3 = true;
 minigame4 = false;
 
 bossfight = false;
@@ -32,3 +32,4 @@ damage = 1;
 attackCooldown = 0;
 facing = 270;
 global.endFight = 0;
+depth = 101;

@@ -7,7 +7,6 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_3CA66FB3","path":"rooms/roomBank/roomBank.yy",},
-    {"name":"inst_78FE7C78","path":"rooms/roomBank/roomBank.yy",},
     {"name":"inst_78C5D772","path":"rooms/roomBank/roomBank.yy",},
     {"name":"inst_62DA53C7","path":"rooms/roomBank/roomBank.yy",},
     {"name":"inst_7791A3EA","path":"rooms/roomBank/roomBank.yy",},
@@ -23,6 +22,7 @@
     {"name":"inst_7C67A0A4","path":"rooms/roomBank/roomBank.yy",},
     {"name":"inst_679E92E9","path":"rooms/roomBank/roomBank.yy",},
     {"name":"inst_F289122","path":"rooms/roomBank/roomBank.yy",},
+    {"name":"inst_78FE7C78","path":"rooms/roomBank/roomBank.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -81,7 +81,7 @@
           -4,-2147483648,2,18,6,-11,-2147483648,-3,268435469,-4,-2147483648,2,18,6,-11,-2147483648,-3,268435469,
           -4,-2147483648,2,18,6,-19,-2147483648,1,6,-19,-2147483648,1,6,-19,-2147483648,1,6,-19,-2147483648,1,
           6,-19,-2147483648,1,6,-19,-2147483648,1,6,-19,-2147483648,1,7,-19,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet4","path":"tilesets/TileSet4/TileSet4.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSetModA","path":"tilesets/TileSetModA/TileSetModA.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_Ground","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Ground","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":20,"SerialiseWidth":20,"TileCompressedData":[
           1,0,-11,6,-8,4,1,0,-11,6,-4,4,-4,5,1,0,-11,6,-4,4,-4,5,1,0,-11,6,-4,4,-4,5,1,0,-11,5,-4,4,-4,5,1,0,-11,
           5,-4,4,-4,5,1,0,-11,5,-4,4,-4,5,1,0,-11,5,-3,4,-5,5,1,0,-11,5,-3,4,-5,5,1,0,-11,5,-3,4,-5,5,1,0,-11,
