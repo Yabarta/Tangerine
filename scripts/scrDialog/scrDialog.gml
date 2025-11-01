@@ -352,4 +352,17 @@ finalMinijuego3 = [
 }
 ]
 
+finishGame = [
+{
+    name: "Iván",
+    msg: "Acabé.",
+    talk: sndIvanTalk
+},
+{
+    name: "Iván",
+    msg: "Bieeen.",
+    talk: sndIvanTalk
+}
+]
+
 
