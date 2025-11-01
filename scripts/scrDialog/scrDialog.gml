@@ -335,12 +335,12 @@ finalMinijuego3 = [
 {
     name: "Nomil",
     msg: "Limon",
-    talk: sndGhostTalk
+    talk: sndYellowTalk
 },
 {
     name: "Iván",
     msg: "Gracias",
-    talk: sndGhostTalk
+    talk: sndYellowTalk
 }
 ]
 
