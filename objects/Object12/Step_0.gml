@@ -1,4 +1,4 @@
-if keyboard_check(vk_space) and !activo and ds_list_size(algosemueve) == 0{
+if keyboard_check(vk_space) and !activo and ds_list_size(algosemueve) == 0 and objCerradura.mostro1 and objCerradura.mostro2{
 	motion_set(90, 3);
 	activo = true;
 }
