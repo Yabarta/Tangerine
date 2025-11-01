@@ -331,6 +331,14 @@ preBossfight = [
 }
 ]
 
+startMinigame3 = [
+{
+    name: "Nomil",
+    msg: "Chochete",
+    talk: sndYellowTalk
+}
+]
+
 finalMinijuego3 = [
 {
     name: "Nomil",

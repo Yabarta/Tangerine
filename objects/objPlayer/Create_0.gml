@@ -28,7 +28,6 @@ global.points = 0;
 global.minigame2Finished = false;
 global.dialogo_actual = 0;
 
-global.isMinigame3Finished = true;
 minigame4 = false;
 
 bossfight = false;

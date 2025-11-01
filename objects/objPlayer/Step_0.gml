@@ -101,7 +101,6 @@ if(!global.minigame1Finished) {
 }
 
 if (global.dialogo_terminado == global.startMinigame1 && !global.minigame1Finished) {
-    show_debug_message(global.interaction);
     if(global.interaction == 1) {
         face = RIGHT;
     }

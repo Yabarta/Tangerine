@@ -63,6 +63,7 @@
     {"name":"inst_51287B7C","path":"rooms/roomPasilloMinijuego/roomPasilloMinijuego.yy",},
     {"name":"inst_5C0A6325","path":"rooms/roomPasilloMinijuego/roomPasilloMinijuego.yy",},
     {"name":"inst_7983671","path":"rooms/roomPasilloMinijuego/roomPasilloMinijuego.yy",},
+    {"name":"inst_7EF112B4","path":"rooms/roomPasilloMinijuego/roomPasilloMinijuego.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -125,6 +126,9 @@
         {"$GMRInstance":"v2","%Name":"bullet3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"bullet3","objectId":{"name":"objBullet","path":"objects/objBullet/objBullet.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1059.0,"y":115.0,},
         {"$GMRInstance":"v2","%Name":"inst_51287B7C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_51287B7C","objectId":{"name":"objRayo","path":"objects/objRayo/objRayo.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1046.0,"y":243.0,},
         {"$GMRInstance":"v2","%Name":"inst_5C0A6325","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5C0A6325","objectId":{"name":"objWarpBlock","path":"objects/objWarpBlock/objWarpBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":25.0,"scaleY":9.0,"x":1216.0,"y":0.0,},
+        {"$GMRInstance":"v2","%Name":"inst_7EF112B4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7EF112B4","objectId":{"name":"objDialogPreMinigame3","path":"objects/objDialogPreMinigame3/objDialogPreMinigame3.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objNpcParent","path":"objects/objNpcParent/objNpcParent.yy",},"propertyId":{"name":"dialog","path":"objects/objNpcParent/objNpcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.startMinigame3",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":11.0,"scaleY":5.0,"x":32.0,"y":608.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Obstaculo","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_5503B621","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5503B621","objectId":{"name":"objRoca","path":"objects/objRoca/objRoca.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":448.0,},

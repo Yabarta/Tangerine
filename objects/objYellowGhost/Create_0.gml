@@ -1,6 +1,6 @@
-if room == roomPasilloMinijuego{
+if (room == roomPasilloMinijuego && global.dialogo_terminado == global.startMinigame3) {
     var path = path_start(pathYellowGhost, 1, path_action_stop, 1);
-} else if room == roomPasilloFinal{
+} else if (room == roomPasilloFinal && global.dialogo_terminado == global.finalMinijuego3) {
     var path = path_start(pathFinalPasillo, 1, path_action_stop, 1);
 }
 
@@ -14,3 +14,6 @@ if global.isInMinigame3{
 }
 
 depth = 250;
+input_key = vk_space;
+can_talk = false;
+dialog = global.finalMinijuego3;
