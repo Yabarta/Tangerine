@@ -348,7 +348,7 @@ finalMinijuego3 = [
 {
     name: "Iván",
     msg: "Gracias",
-    talk: sndYellowTalk
+    talk: sndIvanTalk
 }
 ]
 

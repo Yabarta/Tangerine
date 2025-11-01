@@ -1,3 +1,9 @@
+if (room == roomPasilloMinijuego && global.dialogo_terminado == global.startMinigame3) {
+    if(!path_index) {
+         path_start(pathYellowGhost, 1, path_action_continue, 1);
+    }
+}
+
 if global.isInMinigame3 {
     for(var i = 0; i < lengthBullets; i++){
         bullet = bullets[i];
