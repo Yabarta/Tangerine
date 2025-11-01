@@ -39,7 +39,7 @@ intro = [
 aparicionBlanco = [
 {
     name: "Iván",
-    msg: "La puerta esta cerrada.",
+    msg: "La puerta está cerrada.",
     talk: sndIvanTalk
 },
 {
@@ -247,12 +247,17 @@ introAgord = [
 },
 {
     name: "Iván",
-    msg: "¿Y tu eres?",
+    msg: "¿Y tú eres?",
     talk: sndIvanTalk
 },
 {
     name: "Agord",
-    msg: "Soy conocido como Agord, el sombrero rojo. Rojo como la sangre que hierve por tus venas. ¡Rojo como el fuego que desprende mi entusiasmo!",
+    msg: "Soy conocido como Agord, el sombrero rojo. Rojo como la sangre que hierve por tus venas.",
+    talk: sndRedTalk
+},
+{
+    name: "Agord",
+    msg: "¡Rojo como el fuego que desprende mi entusiasmo!",
     talk: sndRedTalk
 }
 ]
@@ -284,7 +289,7 @@ papelera = [
 puertaCerrada = [
 {
     name: "Iván",
-    msg: "Esta cerrada. Igualmente no creo que haya nada de interés dentro.",
+    msg: "Está cerrada. Igualmente no creo que haya nada de interés dentro.",
     talk: sndIvanTalk
 }
 ]
@@ -334,22 +339,59 @@ preBossfight = [
 startMinigame3 = [
 {
     name: "Nomil",
-    msg: "Chochete",
-    talk: sndYellowTalk
-}
-]
-
-finalMinijuego3 = [
-{
-    name: "Nomil",
-    msg: "Limon",
+    msg: "¡Hola! ¡Qué frenesí! Siento una energía tan, tan... densa a tu alrededor.",
     talk: sndYellowTalk
 },
 {
     name: "Iván",
-    msg: "Gracias",
+    msg: "Mira, no sé qué eres, pero no tengo tiempo para filosofar. Necesito el generador.",
     talk: sndIvanTalk
-}
+},
+{
+    name: "Nomil",
+    msg: "¡Solo guiaré a quien use su energía de forma efectiva!",
+    talk: sndYellowTalk
+},
+{
+    name: "Iván",
+    msg: "¡Claro, porque un fantasma amarillo sabe mucho de productividad!",
+    talk: sndIvanTalk
+},
+{
+    name: "Nomil",
+    msg: "¡Corre tras de mí!. Si te quedas atrás... es que no quieres salir de aquí lo suficiente.",
+    talk: sndYellowTalk
+},
+
+]
+
+
+finalMinijuego3 = [
+{
+    name: "Iván",
+    msg: "Ya... ya estoy aquí. L-lo logré. No me dejaste atrás.",
+    talk: sndIvanTalk
+},
+{
+    name: "Nomil",
+    msg: "Es cierto. Corriste con propósito, no solo con frustración. Eso es un gran avance",
+    talk: sndYellowTalk
+},
+{
+    name: "Iván",
+    msg: "El trato es el trato. Prometí usar mi fuerza en terminar el trabajo si me ayudabas.",
+    talk: sndIvanTalk
+},
+{
+    name: "Iván",
+    msg: "Ahora... guíame a la solución. Necesito que la energía vuelva y salir de aquí.",
+    talk: sndIvanTalk
+},
+{
+    name: "Nomil",
+    msg: "Perfecto. Me gusta la seriedad de tu compromiso. Si trabajamos juntos, la previa te estará esperando.",
+    talk: sndYellowTalk
+},
 ]
 
 finishGame = [
