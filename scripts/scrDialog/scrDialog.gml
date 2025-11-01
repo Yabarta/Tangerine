@@ -323,6 +323,54 @@ bloqueoRecepccion = [
 }
 ]
 
+leavingMinigame4 = [
+{
+    name: "Iván",
+    msg: "Debería de intentar llegar a recepción desde aquí.",
+    talk: sndIvanTalk
+}
+]
+
+minigame4_1 = [
+{
+    name: "Einworb",
+    msg: "Hola primero tienes que hablar conmigo.",
+    talk: sndIvanTalk
+}
+]
+
+minigame4_2 = [
+{
+    name: "Kraps",
+    msg: "Hola ahora tienes que hablar conmigo.",
+    talk: sndIvanTalk
+}
+]
+
+minigame4_3 = [
+{
+    name: "Einworb",
+    msg: "Ve a la fuente y a la papelera.",
+    talk: sndIvanTalk
+}
+]
+
+minigame4_4 = [
+{
+    name: "Iván",
+    msg: "Fuente.",
+    talk: sndIvanTalk
+}
+]
+
+minigame4_5 = [
+{
+    name: "Iván",
+    msg: "Papelera.",
+    talk: sndIvanTalk
+}
+]
+
 preBossfight = [
 {
     name: "Iván",
@@ -332,6 +380,30 @@ preBossfight = [
 {
     name: "Iván",
     msg: "Facto.",
+    talk: sndIvanTalk
+}
+]
+
+minigame4_6 = [
+{
+    name: "Einworb",
+    msg: "Este es mi último diálogo.",
+    talk: sndIvanTalk
+}
+]
+
+minigame4_7 = [
+{
+    name: "Kraps",
+    msg: "Acabaste.",
+    talk: sndIvanTalk
+}
+]
+
+finishMinigame4 = [
+{
+    name: "Iván",
+    msg: "Polla.",
     talk: sndIvanTalk
 }
 ]

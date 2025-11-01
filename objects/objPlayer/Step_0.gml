@@ -155,6 +155,14 @@ if(global.dialogo_terminado == global.postMinigame2) {
     global.points = 2;
 }
 
+if (global.minigame4Finished && global.dialogo_terminado == global.minigame4_7) {
+    global.dialogo_terminado = 0;
+    room_goto(roomComedor);
+    x = 385;
+    y = 590;
+    face = DOWN;
+}
+
 if(global.preBossfight == global.dialogo_terminado) {
     room_goto(roomBossfight);
     global.dialogo_terminado = 0;
