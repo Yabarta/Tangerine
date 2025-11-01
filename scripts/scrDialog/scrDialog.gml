@@ -331,4 +331,17 @@ preBossfight = [
 }
 ]
 
+finalMinijuego3 = [
+{
+    name: "Nomil",
+    msg: "Limon",
+    talk: sndGhostTalk
+},
+{
+    name: "Iván",
+    msg: "Gracias",
+    talk: sndGhostTalk
+}
+]
+
 

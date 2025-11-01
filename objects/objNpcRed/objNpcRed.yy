@@ -6,8 +6,8 @@
   "name":"objNpcRed",
   "overriddenProperties":[],
   "parent":{
-    "name":"Interactuables",
-    "path":"folders/Objetos/Interactuables.yy",
+    "name":"Ghost",
+    "path":"folders/Objetos/Interactuables/Ghost.yy",
   },
   "parentObjectId":null,
   "persistent":false,

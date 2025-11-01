@@ -1,0 +1,24 @@
+{
+  "$GMPath":"",
+  "%Name":"pathFinalPasillo",
+  "closed":false,
+  "kind":1,
+  "name":"pathFinalPasillo",
+  "parent":{
+    "name":"Rutas",
+    "path":"folders/Rutas.yy",
+  },
+  "points":[
+    {"speed":300.0,"x":321.0,"y":692.0,},
+    {"speed":300.0,"x":320.0,"y":576.0,},
+    {"speed":300.0,"x":384.0,"y":544.0,},
+    {"speed":300.0,"x":384.0,"y":512.0,},
+    {"speed":300.0,"x":352.0,"y":416.0,},
+    {"speed":300.0,"x":288.0,"y":320.0,},
+    {"speed":300.0,"x":384.0,"y":256.0,},
+    {"speed":300.0,"x":352.0,"y":128.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
