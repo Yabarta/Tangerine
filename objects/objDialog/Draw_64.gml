@@ -15,6 +15,6 @@ draw_set_color(global.char_colors[$ speaker]);
 draw_text(dx, dy, speaker);
 draw_set_color(c_white);
 
-dy += 25;
+dy += 50;
 
 draw_text_ext(dx, dy, draw_message, -1, box_w -2 * dx);
