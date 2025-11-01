@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"sndGhostTalk",
+  "%Name":"sndWhiteTalk",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.69659865,
-  "name":"sndGhostTalk",
+  "duration":0.48619047,
+  "name":"sndWhiteTalk",
   "parent":{
     "name":"talking",
     "path":"folders/Sonidos/talking.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sndGhostTalk.wav",
+  "soundFile":"sndWhiteTalk.mp3",
   "type":0,
   "volume":1.0,
 }

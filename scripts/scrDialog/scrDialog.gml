@@ -14,7 +14,7 @@ char_colors = {
     "Agord": c_red,
     "Nomil": c_yellow,
     "Kraps": c_lime,
-    "Einworb": c_blue, //darle sndGhostTalk.
+    "Einworb": c_blue, 
     "Leamsi": c_black
 }
 
@@ -22,17 +22,17 @@ intro = [
 {
     name: "Iván",
     msg: "Mmmh...",
-    talk: sndGhostTalk
+    talk: sndIvanTalk
 },
 {
     name: "Iván",
     msg: "Me he quedado dormido, son las 22:30. Tengo una hora y media para llegar a la previa.",
-    talk: sndGhostTalk
+    talk: sndIvanTalk
 },
 {
     name: "Iván",
     msg: "Será mejor salir de aquí antes de que sea demasiado tarde.",
-    talk: sndGhostTalk
+    talk: sndIvanTalk
 }
 ]
 
@@ -40,22 +40,22 @@ aparicionBlanco = [
 {
     name: "Iván",
     msg: "La puerta esta cerrada.",
-    talk: sndGhostTalk
+    talk: sndIvanTalk
 },
 {
     name: "Iván",
     msg: "Me pregunto si habrá algo por aquí con lo que pueda salir.",
-    talk: sndGhostTalk
+    talk: sndIvanTalk
 },
 {
     name: "Neuquen",
     msg: "Aparezco",
-    talk: sndGhostTalk
+    talk: sndWhiteTalk
 },
 {
     name: "Neuquen",
     msg: "Acabo el diálogo",
-    talk: sndGhostTalk
+    talk: sndWhiteTalk
 }
 ]
 
@@ -63,12 +63,12 @@ bloquearClase = [
 {
     name: "Iván",
     msg: "Empieso.",
-    talk: sndGhostTalk
+    talk: sndIvanTalk
 },
 {
     name: "Neuquen",
     msg: "No.",
-    talk: sndGhostTalk
+    talk: sndWhiteTalk
 }
 ]
 
@@ -76,7 +76,7 @@ charger = [
 {
     name: "Iván",
     msg: "Un cargador. Nada relevante.",
-    talk: sndGhostTalk
+    talk: sndIvanTalk
 }
 ]
 
@@ -84,7 +84,7 @@ hairFork = [
 {
     name: "Iván",
     msg: "Una horquilla. Con esto probablemente pueda forzar la cerradura.",
-    talk: sndGhostTalk
+    talk: sndIvanTalk
 }
 ]
 
@@ -92,12 +92,12 @@ startMinigame1 = [
 {
     name: "Iván",
     msg: "Empieso.",
-    talk: sndGhostTalk
+    talk: sndIvanTalk
 },
 {
     name: "Neuquen",
     msg: "Si.",
-    talk: sndGhostTalk
+    talk: sndWhiteTalk
 }
 ]
 
@@ -105,17 +105,17 @@ finishMinigame1 = [
 {
     name: "Neuquen",
     msg: "Lo has hecho.",
-    talk: sndGhostTalk
+    talk: sndWhiteTalk
 },
 {
     name: "Iván",
     msg: "Ole que ole.",
-    talk: sndGhostTalk
+    talk: sndIvanTalk
 },
 {
     name: "Neuquen",
     msg: "Ahora te acompaño.",
-    talk: sndGhostTalk
+    talk: sndWhiteTalk
 }
 ]
 
@@ -123,42 +123,42 @@ introAgord = [
 {
     name: "Iván",
     msg: "Vamos a probar a sacar algo de pasta...",
-    talk: sndGhostTalk
+    talk: sndIvanTalk
 },
 {
     name: "Iván",
     msg: "No hay electricidad.",
-    talk: sndGhostTalk
+    talk: sndIvanTalk
 },
 {
     name: "Iván",
     msg: "¿De dónde se supone que voy a sacar ahora dinero?",
-    talk: sndGhostTalk
+    talk: sndIvanTalk
 },
 {
     name: "Agord",
     msg: "¿He oído dinero?",
-    talk: sndGhostTalk
+    talk: sndRedTalk
 },
 {
     name: "Agord",
     msg: "¡Oh que emoción más grande! ¡Siento como un alma pide mi auxilio!",
-    talk: sndGhostTalk
+    talk: sndRedTalk
 },
 {
     name: "Agord",
     msg: "Llena de frustración y coraje. Llena de fragilidad y pasión. ¡Es todo tan emocionante!",
-    talk: sndGhostTalk
+    talk: sndRedTalk
 },
 {
     name: "Iván",
     msg: "¿Y tu eres?",
-    talk: sndGhostTalk
+    talk: sndIvanTalk
 },
 {
     name: "Agord",
     msg: "Soy conocido como Agord, el sombrero rojo. Rojo como la sangre que hierve por tus venas. ¡Rojo como el fuego que desprende mi entusiasmo!",
-    talk: sndGhostTalk
+    talk: sndRedTalk
 }
 ]
 
@@ -166,7 +166,7 @@ postMinigame2 = [
 {
     name: "Agord",
     msg: "patata",
-    talk: sndGhostTalk
+    talk: sndRedTalk
 }
 ]
 
@@ -174,7 +174,7 @@ fuente = [
 {
     name: "Iván",
     msg: "Solo tengo sed de tinto ahora mismo.",
-    talk: sndGhostTalk
+    talk: sndIvanTalk
 }
 ]
 
@@ -182,7 +182,7 @@ papelera = [
 {
     name: "Iván",
     msg: "¡Anda mira que bien! Una papelera.",
-    talk: sndGhostTalk
+    talk: sndIvanTalk
 }
 ]
 
@@ -190,7 +190,7 @@ puertaCerrada = [
 {
     name: "Iván",
     msg: "Esta cerrada. Igualmente no creo que haya nada de interés dentro.",
-    talk: sndGhostTalk
+    talk: sndIvanTalk
 }
 ]
 
@@ -198,7 +198,7 @@ maquinaExpendedora = [
 {
     name: "Iván",
     msg: "Es increíble como en el CRAI están los chocobons a la mitad del precio de aquí.",
-    talk: sndGhostTalk
+    talk: sndIvanTalk
 }
 ]
 
@@ -206,7 +206,7 @@ elevator = [
 {
     name: "Iván",
     msg: "Funcione o no, un ascensor sería una gran pérdida de tiempo.",
-    talk: sndGhostTalk
+    talk: sndIvanTalk
 }
 ]
 
@@ -214,12 +214,12 @@ bloqueoRecepccion = [
 {
     name: "Iván",
     msg: "Por aquí podría llegar a recepción pero la puerta esta cerrada a cal y canto.",
-    talk: sndGhostTalk
+    talk: sndIvanTalk
 },
 {
     name: "Iván",
     msg: "Tengo que subir arriba y activar el generador. Después probablemente pueda acceder desde el comedor.",
-    talk: sndGhostTalk
+    talk: sndIvanTalk
 }
 ]
 
@@ -227,12 +227,12 @@ preBossfight = [
 {
     name: "Iván",
     msg: "Esto es el diálogo previo a la bossfight.",
-    talk: sndGhostTalk
+    talk: sndIvanTalk
 },
 {
     name: "Iván",
     msg: "Facto.",
-    talk: sndGhostTalk
+    talk: sndIvanTalk
 }
 ]
 
