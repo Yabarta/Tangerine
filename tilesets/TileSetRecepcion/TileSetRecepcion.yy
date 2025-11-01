@@ -1,13 +1,13 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"TileSetReception",
+  "%Name":"TileSetRecepcion",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"TileSetReception",
+  "name":"TileSetRecepcion",
   "out_columns":8,
   "out_tilehborder":2,
   "out_tilevborder":2,

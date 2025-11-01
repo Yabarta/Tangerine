@@ -226,7 +226,7 @@
     {"id":{"name":"TileSetComedor","path":"tilesets/TileSetComedor/TileSetComedor.yy",},},
     {"id":{"name":"TileSetHallway","path":"tilesets/TileSetHallway/TileSetHallway.yy",},},
     {"id":{"name":"TileSetModA","path":"tilesets/TileSetModA/TileSetModA.yy",},},
-    {"id":{"name":"TileSetReception","path":"tilesets/TileSetReception/TileSetReception.yy",},},
+    {"id":{"name":"TileSetRecepcion","path":"tilesets/TileSetRecepcion/TileSetRecepcion.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

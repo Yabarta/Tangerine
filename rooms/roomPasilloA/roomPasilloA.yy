@@ -127,7 +127,7 @@
           13,-20,4,1,13,-61,4,1,-2147483648,-20,4,1,-2147483648,-20,4,1,-2147483648,-20,0,1,-2147483648,-20,0,
           1,-2147483648,-20,0,1,-2147483648,-20,0,1,-2147483648,-20,0,1,-2147483648,-20,0,-5,-2147483648,-12,0,
           -11,-2147483648,-9,0,-11,-2147483648,-3,0,3,-2147483648,0,0,-73,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSetReception","path":"tilesets/TileSetReception/TileSetReception.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSetRecepcion","path":"tilesets/TileSetRecepcion/TileSetRecepcion.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"roomPasilloA",
