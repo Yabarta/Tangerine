@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mscMainMenu",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":48.123672,
+  "name":"mscMainMenu",
+  "parent":{
+    "name":"music",
+    "path":"folders/Sonidos/music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mscMainMenu.mp3",
+  "type":0,
+  "volume":1.0,
+}

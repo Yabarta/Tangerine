@@ -25,7 +25,7 @@ global.minigame1Finished = true;
 global.locks = 0;
 
 global.points = 0;
-global.minigame2Finished = false;
+global.minigame2Finished = true;
 global.dialogo_actual = 0;
 
 global.minigame4Finished = false;
