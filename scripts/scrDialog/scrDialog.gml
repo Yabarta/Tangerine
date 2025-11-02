@@ -121,7 +121,7 @@ bloquearClase = [
 charger = [
 {
     name: "Iván",
-    msg: "Un cargador. Alguién va a tener un finde con problemas de batería.",
+    msg: "Un cargador. Alguien va a tener un finde con problemas de batería.",
     talk: sndIvanTalk
 }
 ]
@@ -808,7 +808,7 @@ finalMinijuego3 = [
 },
 {
     name: "Nomil",
-    msg: "Es cierto. Corriste con propósito, no solo con frustración. Eso es un gran avance",
+    msg: "Es cierto. Corriste con propósito, no solo con frustración. Eso es un gran avance.",
     talk: sndYellowTalk
 },
 {
