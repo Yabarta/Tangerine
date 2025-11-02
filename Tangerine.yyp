@@ -82,6 +82,7 @@
     {"id":{"name":"objCollision_4","path":"objects/objCollision_4/objCollision_4.yy",},},
     {"id":{"name":"objCollision","path":"objects/objCollision/objCollision.yy",},},
     {"id":{"name":"objCollisionParticles","path":"objects/objCollisionParticles/objCollisionParticles.yy",},},
+    {"id":{"name":"objCreditScreen","path":"objects/objCreditScreen/objCreditScreen.yy",},},
     {"id":{"name":"objDialog","path":"objects/objDialog/objDialog.yy",},},
     {"id":{"name":"objDialogBlockMinigame1","path":"objects/objDialogBlockMinigame1/objDialogBlockMinigame1.yy",},},
     {"id":{"name":"objDialogEvent","path":"objects/objDialogEvent/objDialogEvent.yy",},},
@@ -176,6 +177,7 @@
     {"id":{"name":"roomBank","path":"rooms/roomBank/roomBank.yy",},},
     {"id":{"name":"roomBossfight","path":"rooms/roomBossfight/roomBossfight.yy",},},
     {"id":{"name":"roomComedor","path":"rooms/roomComedor/roomComedor.yy",},},
+    {"id":{"name":"roomCredits","path":"rooms/roomCredits/roomCredits.yy",},},
     {"id":{"name":"roomEndScreen","path":"rooms/roomEndScreen/roomEndScreen.yy",},},
     {"id":{"name":"roomFirstClass","path":"rooms/roomFirstClass/roomFirstClass.yy",},},
     {"id":{"name":"roomI2Hallway","path":"rooms/roomI2Hallway/roomI2Hallway.yy",},},
@@ -317,6 +319,7 @@
     {"roomId":{"name":"roomPreBossfight","path":"rooms/roomPreBossfight/roomPreBossfight.yy",},},
     {"roomId":{"name":"roomPostBossfight","path":"rooms/roomPostBossfight/roomPostBossfight.yy",},},
     {"roomId":{"name":"roomEndScreen","path":"rooms/roomEndScreen/roomEndScreen.yy",},},
+    {"roomId":{"name":"roomCredits","path":"rooms/roomCredits/roomCredits.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
