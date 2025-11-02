@@ -425,12 +425,12 @@ elevator = [
 bloqueoRecepccion = [
 {
     name: "Iván",
-    msg: "Por aquí podría llegar a recepción pero la puerta esta cerrada a cal y canto.",
+    msg: "Por aquí podría llegar a la recepción pasando por el comedor.",
     talk: sndIvanTalk
 },
 {
     name: "Iván",
-    msg: "Tengo que subir arriba y activar el generador. Después probablemente pueda acceder desde el comedor.",
+    msg: "Primero tengo que subir arriba y activar el generador. Si no las puertas no se abriran.",
     talk: sndIvanTalk
 }
 ]
@@ -583,13 +583,93 @@ minigame4_5 = [
 preBossfight = [
 {
     name: "Iván",
-    msg: "Esto es el diálogo previo a la bossfight.",
+    msg: "No puede ser que esto me esté pasando justo antes de salir.",
     talk: sndIvanTalk
 },
 {
+    name: "Leamsi",
+    msg: "Alto ahí muchacho.",
+    talk: sndBlackTalk
+},
+{
+    name: "Leamsi",
+    msg: "Pensabas que podrías irte sin ser criticado.",
+    talk: sndBlackTalk
+},
+{
     name: "Iván",
-    msg: "Facto.",
+    msg: "Pensaba que iba a poder irme. El resto me da un poco igual.",
     talk: sndIvanTalk
+},
+{
+    name: "Leamsi",
+    msg: "¡HAH! Tus comentarios son muy mediocres comparados con mi tormenta de odio.",
+    talk: sndBlackTalk
+},
+{
+    name: "Leamsi",
+    msg: "Impediré tu paso tanto como me sea posible..",
+    talk: sndBlackTalk
+},
+{
+    name: "Einworb",
+    msg: "Sabes que tienes un comportamiento un poco descontrolado a veces, ¿verdad Leamsi?.",
+    talk: sndBlueTalk
+},
+{
+    name: "Kraps",
+    msg: "No quiero unir fuerzas con el humano, pero Leamsi es un petardo.",
+    talk: sndGreenTalk
+},
+{
+    name: "Nomil",
+    msg: "¡Animo chavalín! ¡Estás empleando muy bien tu energía!",
+    talk: sndYellowTalk
+},
+{
+    name: "Agord",
+    msg: "¡Oh siento la emoción de un combate entre el chico y el petardo!",
+    talk: sndRedTalk
+},
+{
+    name: "Neuquen",
+    msg: "Objetivamente Leamsi estás acosando a alguien que tiene al menos la mitad de tu edad.",
+    talk: sndWhiteTalk
+},
+{
+    name: "Leamsi",
+    msg: "¡Dejádme en paz!",
+    talk: sndBlackTalk
+},
+{
+    name: "Leamsi",
+    msg: "Nadie aguanta que le critiquen. ¡Ni siquiera vosotros!",
+    talk: sndBlackTalk
+},
+{
+    name: "Leamsi",
+    msg: "Ahora vais a ver lo que ocurre cuando no dejais que el sombrero negro expulse su criticismo.",
+    talk: sndBlackTalk
+},
+{
+    name: "Iván",
+    msg: "Esto esta escalando muy rápido.",
+    talk: sndIvanTalk
+},
+{
+    name: "Kraps",
+    msg: "¿Y si te doy una espada asesina de falsos dioses en tu beneficio?",
+    talk: sndGreenTalk
+},
+{
+    name: "Iván",
+    msg: "Eh...si supongo que eso ayuda.",
+    talk: sndIvanTalk
+},
+{
+    name: "Leamsi",
+    msg: "Ni tu ni nadie va a poder pararme.",
+    talk: sndBlackTalk
 }
 ]
 
@@ -742,14 +822,34 @@ finalMinijuego3 = [
 
 finishGame = [
 {
-    name: "Iván",
-    msg: "Acabé.",
-    talk: sndIvanTalk
+    name: "Leamsi",
+    msg: "¡¡NOO!!.",
+    talk: sndBlackTalk
+},
+{
+    name: "Leamsi",
+    msg: "¿Cómo ha sido posible? Mi crítica...mi odio.",
+    talk: sndBlackTalk
+},
+{
+    name: "Einworb",
+    msg: "Estos dramas tuyos a veces cansan un poco. ¿Quieres unos macarrones?",
+    talk: sndBlackTalk
+},
+{
+    name: "Agord",
+    msg: "¡Oh chico, que combate tan apasionante!",
+    talk: sndRedTalk
 },
 {
     name: "Iván",
-    msg: "Bieeen.",
-    talk: sndIvanTalk
+    msg: "Oye gracias a todos por la ayuda, pero en serio, debería de haberme ido hace 20 minutos.",
+    talk: sndRedTalk
+},
+{
+    name: "Nomil",
+    msg: "¡Esperemos que te sea leve el resto del camino!",
+    talk: sndYellowTalk
 }
 ]
 
