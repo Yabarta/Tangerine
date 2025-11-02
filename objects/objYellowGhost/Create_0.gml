@@ -15,3 +15,4 @@ depth = 250;
 input_key = vk_space;
 can_talk = false;
 dialog = global.finalMinijuego3;
+global.dialogo_terminado = 1;

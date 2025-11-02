@@ -21,11 +21,11 @@ global.dialogo_terminado = 0;
 global.interaction = 0;
 
 global.canStart1 = false;
-global.minigame1Finished = true;
+global.minigame1Finished = false;
 global.locks = 0;
 
 global.points = 0;
-global.minigame2Finished = true;
+global.minigame2Finished = false;
 global.dialogo_actual = 0;
 
 global.minigame4Finished = false;
