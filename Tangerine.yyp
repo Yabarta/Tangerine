@@ -69,6 +69,7 @@
     {"id":{"name":"objAttack","path":"objects/objAttack/objAttack.yy",},},
     {"id":{"name":"objBlueGhost","path":"objects/objBlueGhost/objBlueGhost.yy",},},
     {"id":{"name":"objBullet","path":"objects/objBullet/objBullet.yy",},},
+    {"id":{"name":"objButtonControles","path":"objects/objButtonControles/objButtonControles.yy",},},
     {"id":{"name":"objButtonCreditos","path":"objects/objButtonCreditos/objButtonCreditos.yy",},},
     {"id":{"name":"objButtonJugar","path":"objects/objButtonJugar/objButtonJugar.yy",},},
     {"id":{"name":"objButtonParent","path":"objects/objButtonParent/objButtonParent.yy",},},
