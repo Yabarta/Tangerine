@@ -24,6 +24,7 @@
     {"name":"inst_D512E8E","path":"rooms/roomReception/roomReception.yy",},
     {"name":"inst_31A78D59","path":"rooms/roomReception/roomReception.yy",},
     {"name":"inst_72A5897D","path":"rooms/roomReception/roomReception.yy",},
+    {"name":"inst_768494C5","path":"rooms/roomReception/roomReception.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -44,6 +45,7 @@
         {"$GMRInstance":"v2","%Name":"inst_79EBFB29","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_79EBFB29","objectId":{"name":"objCameraController","path":"objects/objCameraController/objCameraController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":17.0,"y":23.0,},
         {"$GMRInstance":"v2","%Name":"inst_7C67C8A","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7C67C8A","objectId":{"name":"objWarpBlock","path":"objects/objWarpBlock/objWarpBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":23.0,"scaleY":-6.25,"x":164.0,"y":100.0,},
         {"$GMRInstance":"v2","%Name":"inst_72A5897D","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_72A5897D","objectId":{"name":"objWarpBlock","path":"objects/objWarpBlock/objWarpBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":41.0,"scaleY":9.0,"x":128.0,"y":608.0,},
+        {"$GMRInstance":"v2","%Name":"inst_768494C5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_768494C5","objectId":{"name":"objMusicController3","path":"objects/objMusicController3/objMusicController3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":128.0,},
       ],"layers":[],"name":"Collsion","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"TilesDecoration","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TilesDecoration","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":20,"SerialiseWidth":16,"TileCompressedData":[
           -16,-2147483648,-2,7,-2,-2147483648,1,7,-3,-2147483648,5,7,-2147483648,-2147483648,7,7,-3,-2147483648,

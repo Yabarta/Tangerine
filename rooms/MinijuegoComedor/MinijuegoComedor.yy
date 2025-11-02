@@ -74,6 +74,7 @@
     {"name":"inst_33994761","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
     {"name":"inst_B34CF6A","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
     {"name":"inst_1A8F4F4C","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
+    {"name":"inst_3C4FB13B","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -104,6 +105,7 @@
         {"$GMRInstance":"v2","%Name":"inst_1A8F4F4C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1A8F4F4C","objectId":{"name":"objNpcMinigame4_5","path":"objects/objNpcMinigame4_5/objNpcMinigame4_5.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objNpcParent","path":"objects/objNpcParent/objNpcParent.yy",},"propertyId":{"name":"dialog","path":"objects/objNpcParent/objNpcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.minigame4_4",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":736.0,"y":736.0,},
+        {"$GMRInstance":"v2","%Name":"inst_3C4FB13B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3C4FB13B","objectId":{"name":"objMusicController7","path":"objects/objMusicController7/objMusicController7.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":22.0,"y":92.0,},
       ],"layers":[],"name":"interaction","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Collision","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_2040082F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2040082F","objectId":{"name":"objCollision","path":"objects/objCollision/objCollision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":16.0,"scaleY":8.0,"x":32.0,"y":736.0,},

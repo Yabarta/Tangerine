@@ -32,6 +32,7 @@
     {"name":"inst_7EB6A312","path":"rooms/roomA4/roomA4.yy",},
     {"name":"inst_3DDD5611","path":"rooms/roomA4/roomA4.yy",},
     {"name":"inst_3DA011A9","path":"rooms/roomA4/roomA4.yy",},
+    {"name":"inst_4D9D31AB","path":"rooms/roomA4/roomA4.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -54,6 +55,7 @@
         {"$GMRInstance":"v2","%Name":"inst_712A7D65_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_712A7D65_1","objectId":{"name":"objCollision","path":"objects/objCollision/objCollision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":73.25,"scaleY":8.250004,"x":384.0,"y":896.0,},
         {"$GMRInstance":"v2","%Name":"inst_70B2D63","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_70B2D63","objectId":{"name":"objWarpBlock","path":"objects/objWarpBlock/objWarpBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":15.999999,"scaleY":8.25,"x":320.0,"y":768.0,},
         {"$GMRInstance":"v2","%Name":"inst_3DA011A9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3DA011A9","objectId":{"name":"objCollision","path":"objects/objCollision/objCollision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":8.0,"scaleY":8.0,"x":96.0,"y":96.0,},
+        {"$GMRInstance":"v2","%Name":"inst_4D9D31AB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4D9D31AB","objectId":{"name":"objMusicController3","path":"objects/objMusicController3/objMusicController3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":160.0,},
       ],"layers":[],"name":"Collisions","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_Filter","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_1EA0B3CB","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_1EA0B3CB","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":10.5,"scaleY":14.5,"spriteId":{"name":"sprFilter","path":"sprites/sprFilter/sprFilter.yy",},"x":0.0,"y":0.0,},

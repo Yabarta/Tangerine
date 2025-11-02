@@ -21,13 +21,11 @@
     {"name":"inst_5CA7EF9C","path":"rooms/roomIDown/roomIDown.yy",},
     {"name":"inst_72894758","path":"rooms/roomIDown/roomIDown.yy",},
     {"name":"inst_7A3D6074","path":"rooms/roomIDown/roomIDown.yy",},
-    {"name":"inst_4BF41617","path":"rooms/roomIDown/roomIDown.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Camera","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_868BBC5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_868BBC5","objectId":{"name":"objCameraController","path":"objects/objCameraController/objCameraController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
-        {"$GMRInstance":"v2","%Name":"inst_4BF41617","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4BF41617","objectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":256.0,},
       ],"layers":[],"name":"Camera","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_Filter","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_3F62420A","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_3F62420A","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":10.0,"scaleY":6.5,"spriteId":{"name":"sprFilter","path":"sprites/sprFilter/sprFilter.yy",},"x":0.0,"y":0.0,},

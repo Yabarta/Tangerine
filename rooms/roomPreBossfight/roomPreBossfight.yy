@@ -16,6 +16,7 @@
     {"name":"inst_578DCCE1","path":"rooms/roomPreBossfight/roomPreBossfight.yy",},
     {"name":"inst_4EB93F21","path":"rooms/roomPreBossfight/roomPreBossfight.yy",},
     {"name":"inst_2A9A999B","path":"rooms/roomPreBossfight/roomPreBossfight.yy",},
+    {"name":"inst_7B579952","path":"rooms/roomPreBossfight/roomPreBossfight.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -30,6 +31,7 @@
         {"$GMRInstance":"v2","%Name":"inst_2A9A999B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2A9A999B","objectId":{"name":"objDialogEvent","path":"objects/objDialogEvent/objDialogEvent.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objNpcParent","path":"objects/objNpcParent/objNpcParent.yy",},"propertyId":{"name":"dialog","path":"objects/objNpcParent/objNpcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.preBossfight",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.3125,"scaleY":1.0,"x":285.5,"y":150.0,},
+        {"$GMRInstance":"v2","%Name":"inst_7B579952","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7B579952","objectId":{"name":"objMusicController2","path":"objects/objMusicController2/objMusicController2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":32.0,},
       ],"layers":[],"name":"Collisions","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_6B652E51_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6B652E51_1","objectId":{"name":"objCameraController","path":"objects/objCameraController/objCameraController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":12.0,"y":10.0,},

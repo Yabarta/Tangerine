@@ -85,7 +85,7 @@ if ySpeed < 0 && face == DOWN {face=UP}
 
 //minigames
 if (global.dialogo_actual == global.aparicionBlanco) {
-    if (global.interaction == 1) {
+    if (global.interaction == 2) {
         face = RIGHT;
         if (!instance_exists(objNpcWhite)) {
             audio_play_sound(sndAppear,0,false);
@@ -164,6 +164,39 @@ if (global.minigame4Finished && global.dialogo_terminado == global.minigame4_7) 
     x = 385;
     y = 590;
     face = DOWN;
+}
+
+if (global.dialogo_actual == global.preBossfight) {
+    if(global.interaction == 6) {
+        if (!instance_exists(objNpcBlue)) {
+            audio_play_sound(sndAppear,0,false);
+            instance_create_layer(240,140,"Instances",objNpcBlue);
+        }
+    }
+    if(global.interaction == 7) {
+        if (!instance_exists(objNpcGreen)) {
+            audio_play_sound(sndAppear,0,false);
+            instance_create_layer(415,160,"Instances",objNpcGreen);
+        }
+    }
+    if(global.interaction == 8) {
+        if (!instance_exists(objNpcYellow)) {
+            audio_play_sound(sndAppear,0,false);
+            instance_create_layer(400,190,"Instances",objNpcYellow);
+        }
+    }
+    if(global.interaction == 9) {
+        if (!instance_exists(objNpcRed)) {
+            audio_play_sound(sndAppear,0,false);
+            instance_create_layer(240,180,"Instances",objNpcRed);
+        }
+    }
+    if(global.interaction == 10) {
+        if (!instance_exists(objNpcWhite)) {
+            audio_play_sound(sndAppear,0,false);
+            instance_create_layer(380,120,"Instances",objNpcWhite);
+        }
+    }
 }
 
 if(global.preBossfight == global.dialogo_terminado) {
