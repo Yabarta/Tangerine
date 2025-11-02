@@ -1,4 +1,4 @@
-if(!room == roomMenu) exit;
+if!(room == roomMenu || room == roomEndScreen) exit;
 
 if (!audio_is_playing(music)) {
     audio_play_sound(music, 0, false);

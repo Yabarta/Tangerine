@@ -8,6 +8,8 @@ if (audio_is_playing(mscDeathByGlamour)) {
     audio_stop_sound(mscRace);
 } else if (audio_is_playing(mscCooking)) {
     audio_stop_sound(mscCooking);
-} 
+} else if (audio_is_playing(mscMainMenu)) {
+    audio_stop_sound(mscMainMenu);
+}
 music = mscBackground;
 alarm[0] = 6;

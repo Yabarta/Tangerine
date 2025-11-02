@@ -1,5 +1,5 @@
-if (room == roomPasilloMinijuego && global.dialogo_terminado == global.startMinigame3) {
-    if(!path_index) {
+if (room == roomPasilloMinijuego && (global.dialogo_terminado == 0 || global.dialogo_terminado == global.startMinigame3)) {
+    if !(path_index) {
          path_start(pathYellowGhost, 1, path_action_continue, 1);
     }
 }
