@@ -161,10 +161,11 @@ if(global.dialogo_terminado == global.postMinigame2) {
 
 if (global.minigame4Finished && global.dialogo_terminado == global.minigame4_7) {
     global.dialogo_terminado = 0;
-    room_goto(roomComedor);
-    x = 385;
-    y = 590;
-    face = DOWN;
+    var inst = instance_create_depth(0, 0, -9999, objWarp);
+    inst.targetX = 385;
+    inst.targetY = 590;
+    inst.targetRoom = roomComedor;
+    inst.targetFace = DOWN;
 }
 
 if (global.dialogo_actual == global.preBossfight) {
@@ -248,7 +249,11 @@ if(room == roomBossfight && global.endFight < 3) {
 
 if (global.dialogo_terminado == global.finishGame) {
     global.dialogo_terminado = 0;
-    room_goto(roomEndScreen);
+    var inst = instance_create_depth(0, 0, -9999, objWarp);
+    inst.targetX = 0;
+    inst.targetY = 0;
+    inst.targetRoom = roomEndScreen;
+    inst.targetFace = DOWN;
     visible = false;
 }
 
@@ -256,7 +261,16 @@ if(global.minigame2Finished){
     layer_destroy("BlockedCollisions");
     layer_destroy("Blocked1");
     layer_destroy("Blocked2");
-    
+}
+
+if(global.canStart4){
+    layer_destroy("Vallas1");
+    layer_destroy("Vallas2");
+    layer_destroy("Colisiooon");
+}
+
+if(global.puedeBajar){
+    layer_destroy("ColisionBorrar");
 }
 
 

@@ -18,6 +18,7 @@ if (instance_exists(objPlayer) && distance_to_object(objPlayer) <= 8 && room == 
     if (keyboard_check_pressed(input_key)) {
         global.dialogo_actual = dialog;
         create_dialog(dialog);
+        layer_destroy("RAAAAc");
     }
 } else {
     can_talk = false;
