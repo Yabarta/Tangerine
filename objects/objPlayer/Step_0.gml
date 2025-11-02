@@ -252,6 +252,14 @@ if (global.dialogo_terminado == global.finishGame) {
     visible = false;
 }
 
+if(global.minigame2Finished){
+    layer_destroy("BlockedCollisions");
+    layer_destroy("Blocked1");
+    layer_destroy("Blocked2");
+    
+}
+
+
 //fix pixel movement
 y = round(y);
 x = round(x);
