@@ -12,4 +12,5 @@ if global.dialogo_terminado == global.generador{
     global.canStart4 = true;
     global.puedeBajar = true;
     sprite_index = sprPowerSourceOn;
+    image_blend = c_yellow;
 }
