@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"objPowerSource",
+  "%Name":"objDialogCopia",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objPowerSource",
+  "name":"objDialogCopia",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Interactuables",
+    "path":"folders/Objetos/Interactuables.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"objNpcParent",
+    "path":"objects/objNpcParent/objNpcParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,9 +33,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprPowerSourceOff",
-    "path":"sprites/sprPowerSourceOff/sprPowerSourceOff.yy",
+    "name":"sprDialogBox",
+    "path":"sprites/sprDialogBox/sprDialogBox.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
