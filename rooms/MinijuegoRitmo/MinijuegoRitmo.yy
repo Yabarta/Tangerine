@@ -16,6 +16,7 @@
     {"name":"inst_11F85B15","path":"rooms/MinijuegoRitmo/MinijuegoRitmo.yy",},
     {"name":"inst_15C0DBEF","path":"rooms/MinijuegoRitmo/MinijuegoRitmo.yy",},
     {"name":"inst_41D15ECF","path":"rooms/MinijuegoRitmo/MinijuegoRitmo.yy",},
+    {"name":"inst_6DEDFBCA","path":"rooms/MinijuegoRitmo/MinijuegoRitmo.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -30,6 +31,7 @@
         {"$GMRInstance":"v2","%Name":"inst_635F6010","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_635F6010","objectId":{"name":"objIvanFlute","path":"objects/objIvanFlute/objIvanFlute.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.5,"scaleY":2.5,"x":160.0,"y":448.0,},
         {"$GMRInstance":"v2","%Name":"inst_7FC5A311","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7FC5A311","objectId":{"name":"objRedGhost","path":"objects/objRedGhost/objRedGhost.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.625,"scaleY":0.6249999,"x":576.0,"y":448.0,},
         {"$GMRInstance":"v2","%Name":"inst_41D15ECF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_41D15ECF","objectId":{"name":"objPointProgress","path":"objects/objPointProgress/objPointProgress.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":32.0,},
+        {"$GMRInstance":"v2","%Name":"inst_6DEDFBCA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6DEDFBCA","objectId":{"name":"objMusicController4","path":"objects/objMusicController4/objMusicController4.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":64.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":2.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"sprScenary","path":"sprites/sprScenary/sprScenary.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

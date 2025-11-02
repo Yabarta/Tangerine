@@ -85,11 +85,11 @@ if ySpeed < 0 && face == DOWN {face=UP}
 
 //minigames
 if (global.dialogo_actual == global.aparicionBlanco) {
-    if (global.interaction == 1) {
+    if (global.interaction == 2) {
         face = RIGHT;
         if (!instance_exists(objNpcWhite)) {
             audio_play_sound(sndAppear,0,false);
-            var neuquen = instance_create_layer(x+40,y-40,"Instances",objNpcWhite);
+            var neuquen = instance_create_layer(x+30,y-40,"Instances",objNpcWhite);
             neuquen.depth = 10;
         }
     }
@@ -155,6 +155,7 @@ if(global.dialogo_actual == global.postMinigame2) {
 
 if(global.dialogo_terminado == global.postMinigame2) {
     instance_destroy(objNpcRed);
+    global.dialogo_actual = 0;
     global.points = 2;
 }
 
@@ -164,6 +165,39 @@ if (global.minigame4Finished && global.dialogo_terminado == global.minigame4_7) 
     x = 385;
     y = 590;
     face = DOWN;
+}
+
+if (global.dialogo_actual == global.preBossfight) {
+    if(global.interaction == 6) {
+        if (!instance_exists(objNpcBlue)) {
+            audio_play_sound(sndAppear,0,false);
+            instance_create_layer(205,90,"Instances",objNpcBlue);
+        }
+    }
+    if(global.interaction == 7) {
+        if (!instance_exists(objNpcGreen)) {
+            audio_play_sound(sndAppear,0,false);
+            instance_create_layer(415,180,"Instances",objNpcGreen);
+        }
+    }
+    if(global.interaction == 8) {
+        if (!instance_exists(objNpcYellow)) {
+            audio_play_sound(sndAppear,0,false);
+            instance_create_layer(380,220,"Instances",objNpcYellow);
+        }
+    }
+    if(global.interaction == 9) {
+        if (!instance_exists(objNpcRed)) {
+            audio_play_sound(sndAppear,0,false);
+            instance_create_layer(215,150,"Instances",objNpcRed);
+        }
+    }
+    if(global.interaction == 10) {
+        if (!instance_exists(objNpcWhite)) {
+            audio_play_sound(sndAppear,0,false);
+            instance_create_layer(380,95,"Instances",objNpcWhite);
+        }
+    }
 }
 
 if(global.preBossfight == global.dialogo_terminado) {

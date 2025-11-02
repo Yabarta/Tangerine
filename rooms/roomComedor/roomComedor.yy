@@ -63,6 +63,8 @@
     {"name":"inst_26DA7699","path":"rooms/roomComedor/roomComedor.yy",},
     {"name":"inst_7A9F0E20","path":"rooms/roomComedor/roomComedor.yy",},
     {"name":"inst_6C15B43E","path":"rooms/roomComedor/roomComedor.yy",},
+    {"name":"inst_1ABBE197","path":"rooms/roomComedor/roomComedor.yy",},
+    {"name":"inst_4C86FB4D","path":"rooms/roomComedor/roomComedor.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -137,6 +139,8 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":3.9375,"x":346.0,"y":563.0,},
         {"$GMRInstance":"v2","%Name":"inst_7A9F0E20","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7A9F0E20","objectId":{"name":"objWarpBlock","path":"objects/objWarpBlock/objWarpBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":24.0,"scaleY":8.0,"x":352.0,"y":768.0,},
         {"$GMRInstance":"v2","%Name":"inst_6C15B43E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6C15B43E","objectId":{"name":"objCameraController","path":"objects/objCameraController/objCameraController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":40.0,"y":38.0,},
+        {"$GMRInstance":"v2","%Name":"inst_1ABBE197","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1ABBE197","objectId":{"name":"objWarpBlock","path":"objects/objWarpBlock/objWarpBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":8.0,"scaleY":15.875,"x":768.0,"y":256.0,},
+        {"$GMRInstance":"v2","%Name":"inst_4C86FB4D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4C86FB4D","objectId":{"name":"objMusicController3","path":"objects/objMusicController3/objMusicController3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":701.0,"y":213.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Intermedio","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Intermedio","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":25,"SerialiseWidth":25,"TileCompressedData":[
           -8,53,-8,4,-10,53,1,1,-4,53,4,1,53,53,2,-4,53,16,24,53,53,2,53,53,2,53,53,26,53,53,10,53,53,1,-11,53,
