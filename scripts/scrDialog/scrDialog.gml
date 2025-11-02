@@ -425,7 +425,12 @@ elevator = [
 generador = [
 {
     name: "Iván",
-    msg: "¡Bien! ¡Aquí está! El generador. ¡Voy a encenderlo!",
+    msg: "Hecho, generador encendido. Ahora puedo salir por la entrada.",
+    talk: sndIvanTalk
+},
+{
+    name: "Iván",
+    msg: "Quizás pueda llegar ahora desde abajo hasta el comedor.",
     talk: sndIvanTalk
 }
 ]
@@ -730,7 +735,7 @@ finishMinigame4 = [
   },
   {
     name: "General",
-    msg: "Ha recibido hielos.",
+    msg: "Has recibido hielos.",
     talk: sndObjectTalk
   },
   {
