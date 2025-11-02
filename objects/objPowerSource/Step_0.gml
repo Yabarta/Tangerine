@@ -10,5 +10,6 @@ if (instance_exists(objPlayer) && distance_to_object(objPlayer) <= 8 && room == 
 
 if global.dialogo_terminado == global.generador{
     global.canStart4 = true;
+    global.puedoBajar = true;
     sprite_index = sprPowerSourceOn;
 }
