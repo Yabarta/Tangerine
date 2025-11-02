@@ -303,9 +303,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"roomMenu","path":"rooms/roomMenu/roomMenu.yy",},},
     {"roomId":{"name":"roomPasilloMinijuego","path":"rooms/roomPasilloMinijuego/roomPasilloMinijuego.yy",},},
     {"roomId":{"name":"roomPasilloA","path":"rooms/roomPasilloA/roomPasilloA.yy",},},
-    {"roomId":{"name":"roomMenu","path":"rooms/roomMenu/roomMenu.yy",},},
     {"roomId":{"name":"roomI2Hallway","path":"rooms/roomI2Hallway/roomI2Hallway.yy",},},
     {"roomId":{"name":"roomA4","path":"rooms/roomA4/roomA4.yy",},},
     {"roomId":{"name":"MinijuegoComedor","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},},
