@@ -233,10 +233,11 @@ if(bossfight) {
         hp = 3;
     }
     if (global.endFight >= 3) {
-        x = 320;
-        y = 190;
-        face = UP;
-        room_goto(roomPostBossfight);
+        var inst = instance_create_depth(0, 0, -9999, objWarp);
+        inst.targetX = 320;
+        inst.targetY = 190;
+        inst.targetRoom = roomPostBossfight;
+        inst.targetFace = UP;
         bossfight = false;
     }
 }
