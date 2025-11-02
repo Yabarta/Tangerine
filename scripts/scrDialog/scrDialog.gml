@@ -315,12 +315,12 @@ introAgord = [
 {
     name: "Iván",
     msg: "Bueno pues encantado, pero si no te importa me tengo que ir yendo.",
-    talk: sndWhiteTalk
+    talk: sndIvanTalk
 },
 {
     name: "Iván",
     msg: "Voy con prisa y no se de dónde voy a sacar dinero para tintos.",
-    talk: sndWhiteTalk
+    talk: sndIvanTalk
 },
 {
     name: "Agord",
