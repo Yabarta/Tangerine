@@ -28,7 +28,9 @@ global.points = 0;
 global.minigame2Finished = false;
 global.dialogo_actual = 0;
 
-minigame4 = false;
+global.minigame4Finished = false;
+global.canStart4 = false;
+global.foodProgress = 0;
 
 bossfight = false;
 hp = 3;

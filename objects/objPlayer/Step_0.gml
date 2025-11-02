@@ -88,6 +88,7 @@ if (global.dialogo_actual == global.aparicionBlanco) {
     if (global.interaction == 1) {
         face = RIGHT;
         if (!instance_exists(objNpcWhite)) {
+            audio_play_sound(sndAppear,0,false);
             var neuquen = instance_create_layer(x+40,y-40,"Instances",objNpcWhite);
             neuquen.depth = 10;
         }
@@ -125,6 +126,7 @@ if(global.dialogo_actual == global.introAgord) {
     if(global.interaction == 3) {
         face = RIGHT;
         if (!instance_exists(objNpcRed)) {
+            audio_play_sound(sndAppear,0,false);
             var agord = instance_create_layer(x+150,y-60,"Instances",objNpcRed);
             agord.image_xscale = -1;
         }
@@ -145,6 +147,7 @@ if(global.minigame2Finished && global.points >= 50) {
 
 if(global.dialogo_actual == global.postMinigame2) {
     if (!instance_exists(objNpcRed)) {
+            audio_play_sound(sndAppear,0,false);
             var agord = instance_create_layer(x+150,y-60,"Instances",objNpcRed);
             agord.image_xscale = -1;
         }
@@ -153,6 +156,14 @@ if(global.dialogo_actual == global.postMinigame2) {
 if(global.dialogo_terminado == global.postMinigame2) {
     instance_destroy(objNpcRed);
     global.points = 2;
+}
+
+if (global.minigame4Finished && global.dialogo_terminado == global.minigame4_7) {
+    global.dialogo_terminado = 0;
+    room_goto(roomComedor);
+    x = 385;
+    y = 590;
+    face = DOWN;
 }
 
 if(global.preBossfight == global.dialogo_terminado) {

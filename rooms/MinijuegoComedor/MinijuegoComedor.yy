@@ -63,19 +63,47 @@
     {"name":"inst_52AF2208","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
     {"name":"inst_2072C38A","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
     {"name":"inst_184978A4","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
-    {"name":"inst_4EB5AC90","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
-    {"name":"inst_16A7A638","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
-    {"name":"inst_366A51CA","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
-    {"name":"inst_F574B82","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
     {"name":"inst_7DCE3371","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
+    {"name":"inst_51BD2EC8","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
+    {"name":"inst_4A81C2C9","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
+    {"name":"inst_46372261","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
+    {"name":"inst_DB546C8","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
+    {"name":"inst_1CCDBA3","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
+    {"name":"inst_121905C0","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
+    {"name":"inst_4F828FDF","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
+    {"name":"inst_33994761","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
+    {"name":"inst_B34CF6A","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
+    {"name":"inst_1A8F4F4C","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"interaction","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v2","%Name":"inst_4EB5AC90","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4EB5AC90","objectId":{"name":"objNpcGeneric","path":"objects/objNpcGeneric/objNpcGeneric.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":160.0,},
-        {"$GMRInstance":"v2","%Name":"inst_16A7A638","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_16A7A638","objectId":{"name":"objNpcGeneric","path":"objects/objNpcGeneric/objNpcGeneric.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":736.0,"y":736.0,},
-        {"$GMRInstance":"v2","%Name":"inst_366A51CA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_366A51CA","objectId":{"name":"objNpcGeneric","path":"objects/objNpcGeneric/objNpcGeneric.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":480.0,},
-        {"$GMRInstance":"v2","%Name":"inst_F574B82","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_F574B82","objectId":{"name":"objNpcGeneric","path":"objects/objNpcGeneric/objNpcGeneric.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":704.0,},
+        {"$GMRInstance":"v2","%Name":"inst_51BD2EC8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_51BD2EC8","objectId":{"name":"objNpcMinigame4_7","path":"objects/objNpcMinigame4_7/objNpcMinigame4_7.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objNpcParent","path":"objects/objNpcParent/objNpcParent.yy",},"propertyId":{"name":"dialog","path":"objects/objNpcParent/objNpcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.minigame4_7",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":545.0,},
+        {"$GMRInstance":"v2","%Name":"inst_4A81C2C9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4A81C2C9","objectId":{"name":"objNpcMinigame4_6","path":"objects/objNpcMinigame4_6/objNpcMinigame4_6.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objNpcParent","path":"objects/objNpcParent/objNpcParent.yy",},"propertyId":{"name":"dialog","path":"objects/objNpcParent/objNpcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.minigame4_6",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":368.0,"y":155.0,},
+        {"$GMRInstance":"v2","%Name":"inst_46372261","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_46372261","objectId":{"name":"objNpcMinigame4_4","path":"objects/objNpcMinigame4_4/objNpcMinigame4_4.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objNpcParent","path":"objects/objNpcParent/objNpcParent.yy",},"propertyId":{"name":"dialog","path":"objects/objNpcParent/objNpcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.minigame4_5",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":30.0,"y":479.0,},
+        {"$GMRInstance":"v2","%Name":"inst_DB546C8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_DB546C8","objectId":{"name":"objNpcMinigame4_3","path":"objects/objNpcMinigame4_3/objNpcMinigame4_3.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objNpcParent","path":"objects/objNpcParent/objNpcParent.yy",},"propertyId":{"name":"dialog","path":"objects/objNpcParent/objNpcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.minigame4_3",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":350.0,"y":167.0,},
+        {"$GMRInstance":"v2","%Name":"inst_1CCDBA3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1CCDBA3","objectId":{"name":"objNpcMinigame4_1","path":"objects/objNpcMinigame4_1/objNpcMinigame4_1.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objNpcParent","path":"objects/objNpcParent/objNpcParent.yy",},"propertyId":{"name":"dialog","path":"objects/objNpcParent/objNpcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.minigame4_1",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":0.96875,"x":342.0,"y":156.0,},
+        {"$GMRInstance":"v2","%Name":"inst_121905C0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_121905C0","objectId":{"name":"objNpcMinigame4_2","path":"objects/objNpcMinigame4_2/objNpcMinigame4_2.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objNpcParent","path":"objects/objNpcParent/objNpcParent.yy",},"propertyId":{"name":"dialog","path":"objects/objNpcParent/objNpcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.minigame4_2",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":701.0,},
+        {"$GMRInstance":"v2","%Name":"inst_4F828FDF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F828FDF","objectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":705.0,"y":299.0,},
+        {"$GMRInstance":"v2","%Name":"inst_33994761","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_33994761","objectId":{"name":"objDialogEvent","path":"objects/objDialogEvent/objDialogEvent.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objNpcParent","path":"objects/objNpcParent/objNpcParent.yy",},"propertyId":{"name":"dialog","path":"objects/objNpcParent/objNpcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.leavingMinigame4",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":3.932413,"x":737.0,"y":256.0,},
+        {"$GMRInstance":"v2","%Name":"inst_B34CF6A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_B34CF6A","objectId":{"name":"objCameraController","path":"objects/objCameraController/objCameraController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":65.0,"y":37.0,},
+        {"$GMRInstance":"v2","%Name":"inst_1A8F4F4C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1A8F4F4C","objectId":{"name":"objNpcMinigame4_5","path":"objects/objNpcMinigame4_5/objNpcMinigame4_5.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objNpcParent","path":"objects/objNpcParent/objNpcParent.yy",},"propertyId":{"name":"dialog","path":"objects/objNpcParent/objNpcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.minigame4_4",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":736.0,"y":736.0,},
       ],"layers":[],"name":"interaction","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Collision","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_2040082F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2040082F","objectId":{"name":"objCollision","path":"objects/objCollision/objCollision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":16.0,"scaleY":8.0,"x":32.0,"y":736.0,},
@@ -192,7 +220,7 @@
   },
   "sequenceId":null,
   "views":[
-    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":244,"inherit":false,"objectId":null,"vborder":32,"visible":true,"vspeed":-1,"wport":1366,"wview":416,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
@@ -204,7 +232,7 @@
   "viewSettings":{
     "clearDisplayBuffer":true,
     "clearViewBackground":false,
-    "enableViews":false,
+    "enableViews":true,
     "inheritViewSettings":false,
   },
   "volume":1.0,
