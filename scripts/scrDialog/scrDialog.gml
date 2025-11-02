@@ -422,6 +422,14 @@ elevator = [
 }
 ]
 
+generador = [
+{
+    name: "Iván",
+    msg: "¡Bien! ¡Aquí está! El generador. ¡Voy a encenderlo!",
+    talk: sndIvanTalk
+}
+]
+
 bloqueoRecepccion = [
 {
     name: "Iván",

@@ -70,7 +70,6 @@
     {"name":"inst_DB546C8","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
     {"name":"inst_1CCDBA3","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
     {"name":"inst_121905C0","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
-    {"name":"inst_4F828FDF","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
     {"name":"inst_33994761","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
     {"name":"inst_B34CF6A","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
     {"name":"inst_1A8F4F4C","path":"rooms/MinijuegoComedor/MinijuegoComedor.yy",},
@@ -97,7 +96,6 @@
         {"$GMRInstance":"v2","%Name":"inst_121905C0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_121905C0","objectId":{"name":"objNpcMinigame4_2","path":"objects/objNpcMinigame4_2/objNpcMinigame4_2.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objNpcParent","path":"objects/objNpcParent/objNpcParent.yy",},"propertyId":{"name":"dialog","path":"objects/objNpcParent/objNpcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.minigame4_2",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":701.0,},
-        {"$GMRInstance":"v2","%Name":"inst_4F828FDF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F828FDF","objectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":705.0,"y":299.0,},
         {"$GMRInstance":"v2","%Name":"inst_33994761","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_33994761","objectId":{"name":"objDialogEvent","path":"objects/objDialogEvent/objDialogEvent.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objNpcParent","path":"objects/objNpcParent/objNpcParent.yy",},"propertyId":{"name":"dialog","path":"objects/objNpcParent/objNpcParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.leavingMinigame4",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":3.932413,"x":737.0,"y":256.0,},

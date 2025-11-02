@@ -1,6 +1,6 @@
 if(global.canStart4){
-    targetX = 350;
-    targetY = 750;
+    targetX = 700;
+    targetY = 288;
     targetRoom = MinijuegoComedor;
     targetFace = LEFT;
 } else {
