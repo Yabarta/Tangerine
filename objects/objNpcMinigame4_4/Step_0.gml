@@ -1,6 +1,16 @@
 if (instance_exists(objDialog)) exit;
     
-if !(global.foodProgress >= 3) exit;
+if !(global.foodProgress >= 3) {
+if (instance_exists(objPlayer) && distance_to_object(objPlayer) <= 24) {
+    can_talk = true;
+    if (keyboard_check_pressed(input_key)) {
+        global.dialogo_actual = global.papelera;
+        create_dialog(global.papelera);
+    }
+	exit;
+} else {
+    can_talk = false;
+}}
     
 if (instance_exists(objPlayer) && distance_to_object(objPlayer) <= 24) {
     can_talk = true;
