@@ -15,7 +15,8 @@ char_colors = {
     "Nomil": c_yellow,
     "Kraps": c_lime,
     "Einworb": c_blue, 
-    "Leamsi": c_black
+    "Leamsi": c_black,
+    "General": c_white
 }
 
 intro = [
@@ -214,6 +215,57 @@ finishMinigame1 = [
 }
 ]
 
+leavingModI = [
+{
+    name: "Iván",
+    msg: "Vaya, esta puerta también está cerrada.",
+    talk: sndIvanTalk
+},
+{
+    name: "Iván",
+    msg: "Tendré que forzarla de nuevo.",
+    talk: sndIvanTalk
+},
+{
+    name: "Neuquen",
+    msg: "¡¡Oh sí!! Ha llegado mi momento de...",
+    talk: sndWhiteTalk
+},
+{
+    name: "Neuquen",
+    msg: "¡¡AYUDAR!!",
+    talk: sndWhiteTalk
+},
+{
+    name: "Iván",
+    msg: "...no gracias.",
+    talk: sndIvanTalk
+},
+{
+    name: "General",
+    msg: "Iván ha forzado la puerta.",
+    talk: sndObjectTalk
+},
+{
+    name: "Neuquen",
+    msg: "...",
+    talk: sndWhiteTalk
+}
+]
+
+introBank = [
+{
+    name: "Iván",
+    msg: "Uff. Me acabo de acordar que necesitaba comprar tinto de verano.",
+    talk: sndIvanTalk
+},
+{
+    name: "Iván",
+    msg: "Igual puedo sacar algo de dinero del cajero automático.",
+    talk: sndIvanTalk
+}
+]
+
 introAgord = [
 {
     name: "Iván",
@@ -259,13 +311,73 @@ introAgord = [
     name: "Agord",
     msg: "¡Rojo como el fuego que desprende mi entusiasmo!",
     talk: sndRedTalk
+},
+{
+    name: "Iván",
+    msg: "Bueno pues encantado, pero si no te importa me tengo que ir yendo.",
+    talk: sndWhiteTalk
+},
+{
+    name: "Iván",
+    msg: "Voy con prisa y no se de dónde voy a sacar dinero para tintos.",
+    talk: sndWhiteTalk
+},
+{
+    name: "Agord",
+    msg: "¡Oh sí, el dinero! Yo te puedo prestar algo de dinero.",
+    talk: sndRedTalk
+},
+{
+    name: "Agord",
+    msg: "Peeero, existe una condición. Debes emocionarme chico.",
+    talk: sndRedTalk
+},
+{
+    name: "Iván",
+    msg: "Supongo que puedo...¿tocar la flauta?",
+    talk: sndIvanTalk
+},
+{
+    name: "Agord",
+    msg: "¡Oh! ¡Si hay algo que me emocione por encima de todo eso es la música!",
+    talk: sndRedTalk
+},
+{
+    name: "Agord",
+    msg: "¡Vamos demuéstrame que sabes hacer!",
+    talk: sndRedTalk
 }
 ]
 
 postMinigame2 = [
 {
     name: "Agord",
-    msg: "patata",
+    msg: "¡Oh qué emoción, qué sensación! ¡Esa música que tocas es tan maravillosa!",
+    talk: sndRedTalk
+},
+{
+    name: "Iván",
+    msg: "Es bastante trivial si me preguntas.",
+    talk: sndIvanTalk
+},
+{
+    name: "Agord",
+    msg: "¡Bueno bueno, lo prometido es deuda!",
+    talk: sndRedTalk
+},
+{
+    name: "General",
+    msg: "Iván ha recibido 6 euros",
+    talk: sndObjectTalk
+},
+{
+    name: "Iván",
+    msg: "Guau, oye muchas gracias.",
+    talk: sndIvanTalk
+},
+{
+    name: "Agord",
+    msg: "De nada chico, nos vamos viendo.",
     talk: sndRedTalk
 }
 ]
