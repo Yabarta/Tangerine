@@ -681,12 +681,12 @@ minigame4_6 = [
   },
   {
     name: "Einworb",
-    msg: "Perfecto, justo cuando termine los macarrones. Ahora llévaselo a Kraps. Y te daré tus hielos.",
+    msg: "Perfecto, justo cuando termine los macarrones. Ahora llévaselo a Kraps y te daré tus hielos.",
     talk: sndBlueTalk
   },
   {
     name: "Iván",
-    msg: "Joder, ¿puedes parar de hacerme dar vueltas?",
+    msg: "Oye, ¿puedes parar de hacerme dar vueltas?",
     talk: sndIvanTalk
   },
   {
@@ -721,9 +721,9 @@ finishMinigame4 = [
     talk: sndBlueTalk
   },
   {
-    name: "Iván",
+    name: "General",
     msg: "Ha recibido hielos.",
-    talk: sndIvanTalk
+    talk: sndObjectTalk
   },
   {
     name: "Iván",

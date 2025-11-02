@@ -3,4 +3,6 @@ if (global.minigame2Finished) {
     targetY = 140;
     targetRoom = roomPasilloA;
     targetFace = DOWN;
+} else {
+   
 }
