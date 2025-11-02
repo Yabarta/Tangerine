@@ -33,8 +33,8 @@ global.canStart4 = false;
 global.foodProgress = 0;
 
 bossfight = false;
-hp = 3;
-hpMax = 3;
+hp = 4;
+hpMax = 4;
 damage = 1;
 attackCooldown = 0;
 facing = 270;

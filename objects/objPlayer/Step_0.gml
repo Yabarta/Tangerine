@@ -230,7 +230,7 @@ if(bossfight) {
     if (hp <= 0) {
         room_restart();
         global.endFight = 0;
-        hp = 3;
+        hp = 4;
     }
     if (global.endFight >= 3) {
         var inst = instance_create_depth(0, 0, -9999, objWarp);

@@ -16,7 +16,7 @@ char_colors = {
     "Kraps": c_lime,
     "Einworb": c_blue, 
     "Leamsi": c_black,
-    "General": c_white
+    "Objetivo": c_white
 }
 
 intro = [
@@ -366,7 +366,7 @@ postMinigame2 = [
     talk: sndRedTalk
 },
 {
-    name: "General",
+    name: "Objetivo",
     msg: "Iván ha recibido 6 euros",
     talk: sndObjectTalk
 },
@@ -680,6 +680,11 @@ preBossfight = [
     talk: sndIvanTalk
 },
 {
+    name: "Objetivo",
+    msg: "¡Destruye los generadores!",
+    talk: sndObjectTalk
+},
+{
     name: "Leamsi",
     msg: "Ni tu ni nadie va a poder pararme.",
     talk: sndBlackTalk
@@ -734,8 +739,8 @@ finishMinigame4 = [
     talk: sndBlueTalk
   },
   {
-    name: "General",
-    msg: "Has recibido hielos.",
+    name: "Objetivo",
+    msg: "Iván ha recibido hielos.",
     talk: sndObjectTalk
   },
   {
